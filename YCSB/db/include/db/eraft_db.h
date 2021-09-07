@@ -20,10 +20,10 @@ namespace ycsbc {
 
 class EraftDB : public DB {
  public:
-  EraftDB(string addr){
-          std::shared_ptr<Config> conf =
-      std::make_shared<Config>(addr, "#", 0);
-      raftClient_ = std::make_shared<RaftClient>(conf);
+  EraftDB(std::string addr){
+      std::shared_ptr<kvserver::Config> conf =
+      std::make_shared<kvserver::Config>(addr, "#", 0);
+      raftClient_ = std::make_shared<kvserver::RaftClient>(conf);
       addr_ = addr;
   }
 
@@ -50,7 +50,7 @@ class EraftDB : public DB {
 
 
  private:
-  std::shared_ptr<RaftClient> raftClient_;
+  std::shared_ptr<kvserver::RaftClient> raftClient_;
   std::string addr_;
 };
 

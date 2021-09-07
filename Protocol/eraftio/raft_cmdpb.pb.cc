@@ -5,6 +5,7 @@
 
 #include <algorithm>
 
+#include <google/protobuf/stubs/common.h>
 #include <google/protobuf/io/coded_stream.h>
 #include <google/protobuf/extension_set.h>
 #include <google/protobuf/wire_format_lite.h>
@@ -146,10 +147,11 @@ static void InitDefaultsscc_info_AdminRequest_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::AdminRequest();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::AdminRequest::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<4> scc_info_AdminRequest_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 4, 0, InitDefaultsscc_info_AdminRequest_raft_5fcmdpb_2eproto}, {
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 4, InitDefaultsscc_info_AdminRequest_raft_5fcmdpb_2eproto}, {
       &scc_info_ChangePeerRequest_raft_5fcmdpb_2eproto.base,
       &scc_info_CompactLogRequest_raft_5fcmdpb_2eproto.base,
       &scc_info_TransferLeaderRequest_raft_5fcmdpb_2eproto.base,
@@ -163,10 +165,11 @@ static void InitDefaultsscc_info_AdminResponse_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::AdminResponse();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::AdminResponse::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<4> scc_info_AdminResponse_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 4, 0, InitDefaultsscc_info_AdminResponse_raft_5fcmdpb_2eproto}, {
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 4, InitDefaultsscc_info_AdminResponse_raft_5fcmdpb_2eproto}, {
       &scc_info_ChangePeerResponse_raft_5fcmdpb_2eproto.base,
       &scc_info_CompactLogResponse_raft_5fcmdpb_2eproto.base,
       &scc_info_TransferLeaderResponse_raft_5fcmdpb_2eproto.base,
@@ -180,10 +183,11 @@ static void InitDefaultsscc_info_ChangePeerRequest_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::ChangePeerRequest();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::ChangePeerRequest::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_ChangePeerRequest_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_ChangePeerRequest_raft_5fcmdpb_2eproto}, {
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsscc_info_ChangePeerRequest_raft_5fcmdpb_2eproto}, {
       &scc_info_Peer_metapb_2eproto.base,}};
 
 static void InitDefaultsscc_info_ChangePeerResponse_raft_5fcmdpb_2eproto() {
@@ -194,10 +198,11 @@ static void InitDefaultsscc_info_ChangePeerResponse_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::ChangePeerResponse();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::ChangePeerResponse::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_ChangePeerResponse_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_ChangePeerResponse_raft_5fcmdpb_2eproto}, {
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsscc_info_ChangePeerResponse_raft_5fcmdpb_2eproto}, {
       &scc_info_Region_metapb_2eproto.base,}};
 
 static void InitDefaultsscc_info_CompactLogRequest_raft_5fcmdpb_2eproto() {
@@ -208,10 +213,11 @@ static void InitDefaultsscc_info_CompactLogRequest_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::CompactLogRequest();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::CompactLogRequest::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_CompactLogRequest_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_CompactLogRequest_raft_5fcmdpb_2eproto}, {}};
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsscc_info_CompactLogRequest_raft_5fcmdpb_2eproto}, {}};
 
 static void InitDefaultsscc_info_CompactLogResponse_raft_5fcmdpb_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -221,10 +227,11 @@ static void InitDefaultsscc_info_CompactLogResponse_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::CompactLogResponse();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::CompactLogResponse::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_CompactLogResponse_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_CompactLogResponse_raft_5fcmdpb_2eproto}, {}};
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsscc_info_CompactLogResponse_raft_5fcmdpb_2eproto}, {}};
 
 static void InitDefaultsscc_info_DeleteRequest_raft_5fcmdpb_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -234,10 +241,11 @@ static void InitDefaultsscc_info_DeleteRequest_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::DeleteRequest();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::DeleteRequest::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_DeleteRequest_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_DeleteRequest_raft_5fcmdpb_2eproto}, {}};
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsscc_info_DeleteRequest_raft_5fcmdpb_2eproto}, {}};
 
 static void InitDefaultsscc_info_DeleteResponse_raft_5fcmdpb_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -247,10 +255,11 @@ static void InitDefaultsscc_info_DeleteResponse_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::DeleteResponse();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::DeleteResponse::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_DeleteResponse_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_DeleteResponse_raft_5fcmdpb_2eproto}, {}};
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsscc_info_DeleteResponse_raft_5fcmdpb_2eproto}, {}};
 
 static void InitDefaultsscc_info_GetRequest_raft_5fcmdpb_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -260,10 +269,11 @@ static void InitDefaultsscc_info_GetRequest_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::GetRequest();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::GetRequest::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_GetRequest_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_GetRequest_raft_5fcmdpb_2eproto}, {}};
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsscc_info_GetRequest_raft_5fcmdpb_2eproto}, {}};
 
 static void InitDefaultsscc_info_GetResponse_raft_5fcmdpb_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -273,10 +283,11 @@ static void InitDefaultsscc_info_GetResponse_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::GetResponse();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::GetResponse::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_GetResponse_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_GetResponse_raft_5fcmdpb_2eproto}, {}};
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsscc_info_GetResponse_raft_5fcmdpb_2eproto}, {}};
 
 static void InitDefaultsscc_info_PutRequest_raft_5fcmdpb_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -286,10 +297,11 @@ static void InitDefaultsscc_info_PutRequest_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::PutRequest();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::PutRequest::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_PutRequest_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_PutRequest_raft_5fcmdpb_2eproto}, {}};
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsscc_info_PutRequest_raft_5fcmdpb_2eproto}, {}};
 
 static void InitDefaultsscc_info_PutResponse_raft_5fcmdpb_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -299,10 +311,11 @@ static void InitDefaultsscc_info_PutResponse_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::PutResponse();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::PutResponse::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_PutResponse_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_PutResponse_raft_5fcmdpb_2eproto}, {}};
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsscc_info_PutResponse_raft_5fcmdpb_2eproto}, {}};
 
 static void InitDefaultsscc_info_RaftCmdRequest_raft_5fcmdpb_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -312,10 +325,11 @@ static void InitDefaultsscc_info_RaftCmdRequest_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::RaftCmdRequest();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::RaftCmdRequest::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<3> scc_info_RaftCmdRequest_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 3, 0, InitDefaultsscc_info_RaftCmdRequest_raft_5fcmdpb_2eproto}, {
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 3, InitDefaultsscc_info_RaftCmdRequest_raft_5fcmdpb_2eproto}, {
       &scc_info_RaftRequestHeader_raft_5fcmdpb_2eproto.base,
       &scc_info_Request_raft_5fcmdpb_2eproto.base,
       &scc_info_AdminRequest_raft_5fcmdpb_2eproto.base,}};
@@ -328,10 +342,11 @@ static void InitDefaultsscc_info_RaftCmdResponse_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::RaftCmdResponse();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::RaftCmdResponse::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<3> scc_info_RaftCmdResponse_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 3, 0, InitDefaultsscc_info_RaftCmdResponse_raft_5fcmdpb_2eproto}, {
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 3, InitDefaultsscc_info_RaftCmdResponse_raft_5fcmdpb_2eproto}, {
       &scc_info_RaftResponseHeader_raft_5fcmdpb_2eproto.base,
       &scc_info_Response_raft_5fcmdpb_2eproto.base,
       &scc_info_AdminResponse_raft_5fcmdpb_2eproto.base,}};
@@ -344,10 +359,11 @@ static void InitDefaultsscc_info_RaftRequestHeader_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::RaftRequestHeader();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::RaftRequestHeader::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_RaftRequestHeader_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 2, 0, InitDefaultsscc_info_RaftRequestHeader_raft_5fcmdpb_2eproto}, {
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 2, InitDefaultsscc_info_RaftRequestHeader_raft_5fcmdpb_2eproto}, {
       &scc_info_Peer_metapb_2eproto.base,
       &scc_info_RegionEpoch_metapb_2eproto.base,}};
 
@@ -359,10 +375,11 @@ static void InitDefaultsscc_info_RaftResponseHeader_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::RaftResponseHeader();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::RaftResponseHeader::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_RaftResponseHeader_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_RaftResponseHeader_raft_5fcmdpb_2eproto}, {
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsscc_info_RaftResponseHeader_raft_5fcmdpb_2eproto}, {
       &scc_info_Error_errorpb_2eproto.base,}};
 
 static void InitDefaultsscc_info_Request_raft_5fcmdpb_2eproto() {
@@ -373,10 +390,11 @@ static void InitDefaultsscc_info_Request_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::Request();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::Request::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<4> scc_info_Request_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 4, 0, InitDefaultsscc_info_Request_raft_5fcmdpb_2eproto}, {
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 4, InitDefaultsscc_info_Request_raft_5fcmdpb_2eproto}, {
       &scc_info_GetRequest_raft_5fcmdpb_2eproto.base,
       &scc_info_PutRequest_raft_5fcmdpb_2eproto.base,
       &scc_info_DeleteRequest_raft_5fcmdpb_2eproto.base,
@@ -390,10 +408,11 @@ static void InitDefaultsscc_info_Response_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::Response();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::Response::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<4> scc_info_Response_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 4, 0, InitDefaultsscc_info_Response_raft_5fcmdpb_2eproto}, {
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 4, InitDefaultsscc_info_Response_raft_5fcmdpb_2eproto}, {
       &scc_info_GetResponse_raft_5fcmdpb_2eproto.base,
       &scc_info_PutResponse_raft_5fcmdpb_2eproto.base,
       &scc_info_DeleteResponse_raft_5fcmdpb_2eproto.base,
@@ -407,10 +426,11 @@ static void InitDefaultsscc_info_SnapRequest_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::SnapRequest();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::SnapRequest::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_SnapRequest_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_SnapRequest_raft_5fcmdpb_2eproto}, {}};
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsscc_info_SnapRequest_raft_5fcmdpb_2eproto}, {}};
 
 static void InitDefaultsscc_info_SnapResponse_raft_5fcmdpb_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -420,10 +440,11 @@ static void InitDefaultsscc_info_SnapResponse_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::SnapResponse();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::SnapResponse::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_SnapResponse_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_SnapResponse_raft_5fcmdpb_2eproto}, {
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsscc_info_SnapResponse_raft_5fcmdpb_2eproto}, {
       &scc_info_Region_metapb_2eproto.base,}};
 
 static void InitDefaultsscc_info_SplitRequest_raft_5fcmdpb_2eproto() {
@@ -434,10 +455,11 @@ static void InitDefaultsscc_info_SplitRequest_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::SplitRequest();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::SplitRequest::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_SplitRequest_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_SplitRequest_raft_5fcmdpb_2eproto}, {}};
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsscc_info_SplitRequest_raft_5fcmdpb_2eproto}, {}};
 
 static void InitDefaultsscc_info_SplitResponse_raft_5fcmdpb_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -447,10 +469,11 @@ static void InitDefaultsscc_info_SplitResponse_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::SplitResponse();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::SplitResponse::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_SplitResponse_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_SplitResponse_raft_5fcmdpb_2eproto}, {
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsscc_info_SplitResponse_raft_5fcmdpb_2eproto}, {
       &scc_info_Region_metapb_2eproto.base,}};
 
 static void InitDefaultsscc_info_TransferLeaderRequest_raft_5fcmdpb_2eproto() {
@@ -461,10 +484,11 @@ static void InitDefaultsscc_info_TransferLeaderRequest_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::TransferLeaderRequest();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::TransferLeaderRequest::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_TransferLeaderRequest_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_TransferLeaderRequest_raft_5fcmdpb_2eproto}, {
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsscc_info_TransferLeaderRequest_raft_5fcmdpb_2eproto}, {
       &scc_info_Peer_metapb_2eproto.base,}};
 
 static void InitDefaultsscc_info_TransferLeaderResponse_raft_5fcmdpb_2eproto() {
@@ -475,10 +499,11 @@ static void InitDefaultsscc_info_TransferLeaderResponse_raft_5fcmdpb_2eproto() {
     new (ptr) ::raft_cmdpb::TransferLeaderResponse();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::raft_cmdpb::TransferLeaderResponse::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_TransferLeaderResponse_raft_5fcmdpb_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_TransferLeaderResponse_raft_5fcmdpb_2eproto}, {}};
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsscc_info_TransferLeaderResponse_raft_5fcmdpb_2eproto}, {}};
 
 static ::PROTOBUF_NAMESPACE_ID::Metadata file_level_metadata_raft_5fcmdpb_2eproto[24];
 static const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* file_level_enum_descriptors_raft_5fcmdpb_2eproto[2];
@@ -712,7 +737,7 @@ static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] =
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::raft_cmdpb::_RaftCmdResponse_default_instance_),
 };
 
-const char descriptor_table_protodef_raft_5fcmdpb_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
+const char descriptor_table_protodef_raft_5fcmdpb_2eproto[] =
   "\n\020raft_cmdpb.proto\022\nraft_cmdpb\032\014metapb.p"
   "roto\032\rerrorpb.proto\032\reraftpb.proto\"%\n\nGe"
   "tRequest\022\n\n\002cf\030\001 \001(\t\022\013\n\003key\030\002 \001(\014\"\034\n\013Get"
@@ -807,15 +832,16 @@ static ::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase*const descriptor_table_raf
   &scc_info_TransferLeaderResponse_raft_5fcmdpb_2eproto.base,
 };
 static ::PROTOBUF_NAMESPACE_ID::internal::once_flag descriptor_table_raft_5fcmdpb_2eproto_once;
+static bool descriptor_table_raft_5fcmdpb_2eproto_initialized = false;
 const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_raft_5fcmdpb_2eproto = {
-  false, false, descriptor_table_protodef_raft_5fcmdpb_2eproto, "raft_cmdpb.proto", 2434,
+  &descriptor_table_raft_5fcmdpb_2eproto_initialized, descriptor_table_protodef_raft_5fcmdpb_2eproto, "raft_cmdpb.proto", 2434,
   &descriptor_table_raft_5fcmdpb_2eproto_once, descriptor_table_raft_5fcmdpb_2eproto_sccs, descriptor_table_raft_5fcmdpb_2eproto_deps, 24, 3,
   schemas, file_default_instances, TableStruct_raft_5fcmdpb_2eproto::offsets,
   file_level_metadata_raft_5fcmdpb_2eproto, 24, file_level_enum_descriptors_raft_5fcmdpb_2eproto, file_level_service_descriptors_raft_5fcmdpb_2eproto,
 };
 
 // Force running AddDescriptors() at dynamic initialization time.
-static bool dynamic_init_dummy_raft_5fcmdpb_2eproto = (static_cast<void>(::PROTOBUF_NAMESPACE_ID::internal::AddDescriptors(&descriptor_table_raft_5fcmdpb_2eproto)), true);
+static bool dynamic_init_dummy_raft_5fcmdpb_2eproto = (  ::PROTOBUF_NAMESPACE_ID::internal::AddDescriptors(&descriptor_table_raft_5fcmdpb_2eproto), true);
 namespace raft_cmdpb {
 const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* CmdType_descriptor() {
   ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&descriptor_table_raft_5fcmdpb_2eproto);
@@ -854,28 +880,33 @@ bool AdminCmdType_IsValid(int value) {
 
 // ===================================================================
 
-class GetRequest::_Internal {
+void GetRequest::InitAsDefaultInstance() {
+}
+class GetRequest::HasBitSetters {
  public:
 };
 
-GetRequest::GetRequest(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int GetRequest::kCfFieldNumber;
+const int GetRequest::kKeyFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+GetRequest::GetRequest()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.GetRequest)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.GetRequest)
 }
 GetRequest::GetRequest(const GetRequest& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   cf_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_cf().empty()) {
-    cf_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_cf(), 
-      GetArena());
+  if (from.cf().size() > 0) {
+    cf_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.cf_);
   }
   key_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_key().empty()) {
-    key_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_key(), 
-      GetArena());
+  if (from.key().size() > 0) {
+    key_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.key_);
   }
   // @@protoc_insertion_point(copy_constructor:raft_cmdpb.GetRequest)
 }
@@ -889,21 +920,13 @@ void GetRequest::SharedCtor() {
 GetRequest::~GetRequest() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.GetRequest)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void GetRequest::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   cf_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   key_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 
-void GetRequest::ArenaDtor(void* object) {
-  GetRequest* _this = reinterpret_cast< GetRequest* >(object);
-  (void)_this;
-}
-void GetRequest::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void GetRequest::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -919,11 +942,12 @@ void GetRequest::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cf_.ClearToEmpty();
-  key_.ClearToEmpty();
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  cf_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  key_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* GetRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -934,17 +958,14 @@ const char* GetRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID:
       // string cf = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
-          auto str = _internal_mutable_cf();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "raft_cmdpb.GetRequest.cf"));
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(mutable_cf(), ptr, ctx, "raft_cmdpb.GetRequest.cf");
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // bytes key = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
-          auto str = _internal_mutable_key();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(mutable_key(), ptr, ctx);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -954,9 +975,7 @@ const char* GetRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID:
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -969,9 +988,95 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool GetRequest::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.GetRequest)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // string cf = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (10 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadString(
+                input, this->mutable_cf()));
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+            this->cf().data(), static_cast<int>(this->cf().length()),
+            ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::PARSE,
+            "raft_cmdpb.GetRequest.cf"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* GetRequest::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      // bytes key = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (18 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadBytes(
+                input, this->mutable_key()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.GetRequest)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.GetRequest)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void GetRequest::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.GetRequest)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string cf = 1;
+  if (this->cf().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->cf().data(), static_cast<int>(this->cf().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "raft_cmdpb.GetRequest.cf");
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteStringMaybeAliased(
+      1, this->cf(), output);
+  }
+
+  // bytes key = 2;
+  if (this->key().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesMaybeAliased(
+      2, this->key(), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.GetRequest)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* GetRequest::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.GetRequest)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
@@ -979,22 +1084,24 @@ failure:
   // string cf = 1;
   if (this->cf().size() > 0) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
-      this->_internal_cf().data(), static_cast<int>(this->_internal_cf().length()),
+      this->cf().data(), static_cast<int>(this->cf().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
       "raft_cmdpb.GetRequest.cf");
-    target = stream->WriteStringMaybeAliased(
-        1, this->_internal_cf(), target);
+    target =
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteStringToArray(
+        1, this->cf(), target);
   }
 
   // bytes key = 2;
   if (this->key().size() > 0) {
-    target = stream->WriteBytesMaybeAliased(
-        2, this->_internal_key(), target);
+    target =
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesToArray(
+        2, this->key(), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.GetRequest)
   return target;
@@ -1004,6 +1111,11 @@ size_t GetRequest::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.GetRequest)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -1012,20 +1124,16 @@ size_t GetRequest::ByteSizeLong() const {
   if (this->cf().size() > 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
-        this->_internal_cf());
+        this->cf());
   }
 
   // bytes key = 2;
   if (this->key().size() > 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
-        this->_internal_key());
+        this->key());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -1049,15 +1157,17 @@ void GetRequest::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void GetRequest::MergeFrom(const GetRequest& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.GetRequest)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.cf().size() > 0) {
-    _internal_set_cf(from._internal_cf());
+
+    cf_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.cf_);
   }
   if (from.key().size() > 0) {
-    _internal_set_key(from._internal_key());
+
+    key_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.key_);
   }
 }
 
@@ -1079,11 +1189,17 @@ bool GetRequest::IsInitialized() const {
   return true;
 }
 
+void GetRequest::Swap(GetRequest* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void GetRequest::InternalSwap(GetRequest* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  cf_.Swap(&other->cf_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  key_.Swap(&other->key_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  cf_.Swap(&other->cf_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  key_.Swap(&other->key_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata GetRequest::GetMetadata() const {
@@ -1093,23 +1209,28 @@ void GetRequest::InternalSwap(GetRequest* other) {
 
 // ===================================================================
 
-class GetResponse::_Internal {
+void GetResponse::InitAsDefaultInstance() {
+}
+class GetResponse::HasBitSetters {
  public:
 };
 
-GetResponse::GetResponse(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int GetResponse::kValueFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+GetResponse::GetResponse()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.GetResponse)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.GetResponse)
 }
 GetResponse::GetResponse(const GetResponse& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   value_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_value().empty()) {
-    value_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_value(), 
-      GetArena());
+  if (from.value().size() > 0) {
+    value_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.value_);
   }
   // @@protoc_insertion_point(copy_constructor:raft_cmdpb.GetResponse)
 }
@@ -1122,20 +1243,12 @@ void GetResponse::SharedCtor() {
 GetResponse::~GetResponse() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.GetResponse)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void GetResponse::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   value_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 
-void GetResponse::ArenaDtor(void* object) {
-  GetResponse* _this = reinterpret_cast< GetResponse* >(object);
-  (void)_this;
-}
-void GetResponse::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void GetResponse::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -1151,10 +1264,11 @@ void GetResponse::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  value_.ClearToEmpty();
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  value_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* GetResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -1165,8 +1279,7 @@ const char* GetResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID
       // bytes value = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
-          auto str = _internal_mutable_value();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(mutable_value(), ptr, ctx);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -1176,9 +1289,7 @@ const char* GetResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -1191,22 +1302,84 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool GetResponse::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.GetResponse)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // bytes value = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (10 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadBytes(
+                input, this->mutable_value()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* GetResponse::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.GetResponse)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.GetResponse)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void GetResponse::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.GetResponse)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // bytes value = 1;
+  if (this->value().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesMaybeAliased(
+      1, this->value(), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.GetResponse)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* GetResponse::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.GetResponse)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // bytes value = 1;
   if (this->value().size() > 0) {
-    target = stream->WriteBytesMaybeAliased(
-        1, this->_internal_value(), target);
+    target =
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesToArray(
+        1, this->value(), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.GetResponse)
   return target;
@@ -1216,6 +1389,11 @@ size_t GetResponse::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.GetResponse)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -1224,13 +1402,9 @@ size_t GetResponse::ByteSizeLong() const {
   if (this->value().size() > 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
-        this->_internal_value());
+        this->value());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -1254,12 +1428,13 @@ void GetResponse::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void GetResponse::MergeFrom(const GetResponse& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.GetResponse)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.value().size() > 0) {
-    _internal_set_value(from._internal_value());
+
+    value_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.value_);
   }
 }
 
@@ -1281,10 +1456,15 @@ bool GetResponse::IsInitialized() const {
   return true;
 }
 
+void GetResponse::Swap(GetResponse* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void GetResponse::InternalSwap(GetResponse* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  value_.Swap(&other->value_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  value_.Swap(&other->value_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata GetResponse::GetMetadata() const {
@@ -1294,33 +1474,38 @@ void GetResponse::InternalSwap(GetResponse* other) {
 
 // ===================================================================
 
-class PutRequest::_Internal {
+void PutRequest::InitAsDefaultInstance() {
+}
+class PutRequest::HasBitSetters {
  public:
 };
 
-PutRequest::PutRequest(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int PutRequest::kCfFieldNumber;
+const int PutRequest::kKeyFieldNumber;
+const int PutRequest::kValueFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+PutRequest::PutRequest()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.PutRequest)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.PutRequest)
 }
 PutRequest::PutRequest(const PutRequest& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   cf_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_cf().empty()) {
-    cf_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_cf(), 
-      GetArena());
+  if (from.cf().size() > 0) {
+    cf_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.cf_);
   }
   key_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_key().empty()) {
-    key_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_key(), 
-      GetArena());
+  if (from.key().size() > 0) {
+    key_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.key_);
   }
   value_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_value().empty()) {
-    value_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_value(), 
-      GetArena());
+  if (from.value().size() > 0) {
+    value_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.value_);
   }
   // @@protoc_insertion_point(copy_constructor:raft_cmdpb.PutRequest)
 }
@@ -1335,22 +1520,14 @@ void PutRequest::SharedCtor() {
 PutRequest::~PutRequest() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.PutRequest)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void PutRequest::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   cf_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   key_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   value_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 
-void PutRequest::ArenaDtor(void* object) {
-  PutRequest* _this = reinterpret_cast< PutRequest* >(object);
-  (void)_this;
-}
-void PutRequest::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void PutRequest::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -1366,12 +1543,13 @@ void PutRequest::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cf_.ClearToEmpty();
-  key_.ClearToEmpty();
-  value_.ClearToEmpty();
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  cf_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  key_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  value_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* PutRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -1382,25 +1560,21 @@ const char* PutRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID:
       // string cf = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
-          auto str = _internal_mutable_cf();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "raft_cmdpb.PutRequest.cf"));
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(mutable_cf(), ptr, ctx, "raft_cmdpb.PutRequest.cf");
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // bytes key = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
-          auto str = _internal_mutable_key();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(mutable_key(), ptr, ctx);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // bytes value = 3;
       case 3:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
-          auto str = _internal_mutable_value();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(mutable_value(), ptr, ctx);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -1410,9 +1584,7 @@ const char* PutRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID:
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -1425,9 +1597,112 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool PutRequest::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.PutRequest)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // string cf = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (10 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadString(
+                input, this->mutable_cf()));
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+            this->cf().data(), static_cast<int>(this->cf().length()),
+            ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::PARSE,
+            "raft_cmdpb.PutRequest.cf"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* PutRequest::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      // bytes key = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (18 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadBytes(
+                input, this->mutable_key()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // bytes value = 3;
+      case 3: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (26 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadBytes(
+                input, this->mutable_value()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.PutRequest)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.PutRequest)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void PutRequest::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.PutRequest)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string cf = 1;
+  if (this->cf().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->cf().data(), static_cast<int>(this->cf().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "raft_cmdpb.PutRequest.cf");
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteStringMaybeAliased(
+      1, this->cf(), output);
+  }
+
+  // bytes key = 2;
+  if (this->key().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesMaybeAliased(
+      2, this->key(), output);
+  }
+
+  // bytes value = 3;
+  if (this->value().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesMaybeAliased(
+      3, this->value(), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.PutRequest)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* PutRequest::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.PutRequest)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
@@ -1435,28 +1710,31 @@ failure:
   // string cf = 1;
   if (this->cf().size() > 0) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
-      this->_internal_cf().data(), static_cast<int>(this->_internal_cf().length()),
+      this->cf().data(), static_cast<int>(this->cf().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
       "raft_cmdpb.PutRequest.cf");
-    target = stream->WriteStringMaybeAliased(
-        1, this->_internal_cf(), target);
+    target =
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteStringToArray(
+        1, this->cf(), target);
   }
 
   // bytes key = 2;
   if (this->key().size() > 0) {
-    target = stream->WriteBytesMaybeAliased(
-        2, this->_internal_key(), target);
+    target =
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesToArray(
+        2, this->key(), target);
   }
 
   // bytes value = 3;
   if (this->value().size() > 0) {
-    target = stream->WriteBytesMaybeAliased(
-        3, this->_internal_value(), target);
+    target =
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesToArray(
+        3, this->value(), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.PutRequest)
   return target;
@@ -1466,6 +1744,11 @@ size_t PutRequest::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.PutRequest)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -1474,27 +1757,23 @@ size_t PutRequest::ByteSizeLong() const {
   if (this->cf().size() > 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
-        this->_internal_cf());
+        this->cf());
   }
 
   // bytes key = 2;
   if (this->key().size() > 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
-        this->_internal_key());
+        this->key());
   }
 
   // bytes value = 3;
   if (this->value().size() > 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
-        this->_internal_value());
+        this->value());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -1518,18 +1797,21 @@ void PutRequest::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void PutRequest::MergeFrom(const PutRequest& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.PutRequest)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.cf().size() > 0) {
-    _internal_set_cf(from._internal_cf());
+
+    cf_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.cf_);
   }
   if (from.key().size() > 0) {
-    _internal_set_key(from._internal_key());
+
+    key_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.key_);
   }
   if (from.value().size() > 0) {
-    _internal_set_value(from._internal_value());
+
+    value_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.value_);
   }
 }
 
@@ -1551,12 +1833,19 @@ bool PutRequest::IsInitialized() const {
   return true;
 }
 
+void PutRequest::Swap(PutRequest* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void PutRequest::InternalSwap(PutRequest* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  cf_.Swap(&other->cf_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  key_.Swap(&other->key_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  value_.Swap(&other->value_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  cf_.Swap(&other->cf_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  key_.Swap(&other->key_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  value_.Swap(&other->value_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata PutRequest::GetMetadata() const {
@@ -1566,19 +1855,24 @@ void PutRequest::InternalSwap(PutRequest* other) {
 
 // ===================================================================
 
-class PutResponse::_Internal {
+void PutResponse::InitAsDefaultInstance() {
+}
+class PutResponse::HasBitSetters {
  public:
 };
 
-PutResponse::PutResponse(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+PutResponse::PutResponse()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.PutResponse)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.PutResponse)
 }
 PutResponse::PutResponse(const PutResponse& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   // @@protoc_insertion_point(copy_constructor:raft_cmdpb.PutResponse)
 }
 
@@ -1588,19 +1882,11 @@ void PutResponse::SharedCtor() {
 PutResponse::~PutResponse() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.PutResponse)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void PutResponse::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
 }
 
-void PutResponse::ArenaDtor(void* object) {
-  PutResponse* _this = reinterpret_cast< PutResponse* >(object);
-  (void)_this;
-}
-void PutResponse::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void PutResponse::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -1616,24 +1902,27 @@ void PutResponse::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* PutResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
     ::PROTOBUF_NAMESPACE_ID::uint32 tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
+    switch (tag >> 3) {
+      default: {
         if ((tag & 7) == 4 || tag == 0) {
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
+      }
+    }  // switch
   }  // while
 success:
   return ptr;
@@ -1642,16 +1931,55 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool PutResponse::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.PutResponse)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+  handle_unusual:
+    if (tag == 0) {
+      goto success;
+    }
+    DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+          input, tag, _internal_metadata_.mutable_unknown_fields()));
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.PutResponse)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.PutResponse)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 
-::PROTOBUF_NAMESPACE_ID::uint8* PutResponse::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+void PutResponse::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.PutResponse)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.PutResponse)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* PutResponse::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.PutResponse)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.PutResponse)
   return target;
@@ -1661,14 +1989,15 @@ size_t PutResponse::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.PutResponse)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -1692,7 +2021,7 @@ void PutResponse::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void PutResponse::MergeFrom(const PutResponse& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.PutResponse)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -1716,9 +2045,13 @@ bool PutResponse::IsInitialized() const {
   return true;
 }
 
+void PutResponse::Swap(PutResponse* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void PutResponse::InternalSwap(PutResponse* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata PutResponse::GetMetadata() const {
@@ -1728,28 +2061,33 @@ void PutResponse::InternalSwap(PutResponse* other) {
 
 // ===================================================================
 
-class DeleteRequest::_Internal {
+void DeleteRequest::InitAsDefaultInstance() {
+}
+class DeleteRequest::HasBitSetters {
  public:
 };
 
-DeleteRequest::DeleteRequest(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int DeleteRequest::kCfFieldNumber;
+const int DeleteRequest::kKeyFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+DeleteRequest::DeleteRequest()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.DeleteRequest)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.DeleteRequest)
 }
 DeleteRequest::DeleteRequest(const DeleteRequest& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   cf_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_cf().empty()) {
-    cf_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_cf(), 
-      GetArena());
+  if (from.cf().size() > 0) {
+    cf_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.cf_);
   }
   key_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_key().empty()) {
-    key_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_key(), 
-      GetArena());
+  if (from.key().size() > 0) {
+    key_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.key_);
   }
   // @@protoc_insertion_point(copy_constructor:raft_cmdpb.DeleteRequest)
 }
@@ -1763,21 +2101,13 @@ void DeleteRequest::SharedCtor() {
 DeleteRequest::~DeleteRequest() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.DeleteRequest)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void DeleteRequest::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   cf_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   key_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 
-void DeleteRequest::ArenaDtor(void* object) {
-  DeleteRequest* _this = reinterpret_cast< DeleteRequest* >(object);
-  (void)_this;
-}
-void DeleteRequest::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void DeleteRequest::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -1793,11 +2123,12 @@ void DeleteRequest::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cf_.ClearToEmpty();
-  key_.ClearToEmpty();
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  cf_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  key_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* DeleteRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -1808,17 +2139,14 @@ const char* DeleteRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
       // string cf = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
-          auto str = _internal_mutable_cf();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "raft_cmdpb.DeleteRequest.cf"));
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(mutable_cf(), ptr, ctx, "raft_cmdpb.DeleteRequest.cf");
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // bytes key = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
-          auto str = _internal_mutable_key();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(mutable_key(), ptr, ctx);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -1828,9 +2156,7 @@ const char* DeleteRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -1843,9 +2169,95 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool DeleteRequest::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.DeleteRequest)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // string cf = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (10 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadString(
+                input, this->mutable_cf()));
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+            this->cf().data(), static_cast<int>(this->cf().length()),
+            ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::PARSE,
+            "raft_cmdpb.DeleteRequest.cf"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* DeleteRequest::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      // bytes key = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (18 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadBytes(
+                input, this->mutable_key()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.DeleteRequest)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.DeleteRequest)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void DeleteRequest::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.DeleteRequest)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string cf = 1;
+  if (this->cf().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->cf().data(), static_cast<int>(this->cf().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "raft_cmdpb.DeleteRequest.cf");
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteStringMaybeAliased(
+      1, this->cf(), output);
+  }
+
+  // bytes key = 2;
+  if (this->key().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesMaybeAliased(
+      2, this->key(), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.DeleteRequest)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* DeleteRequest::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.DeleteRequest)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
@@ -1853,22 +2265,24 @@ failure:
   // string cf = 1;
   if (this->cf().size() > 0) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
-      this->_internal_cf().data(), static_cast<int>(this->_internal_cf().length()),
+      this->cf().data(), static_cast<int>(this->cf().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
       "raft_cmdpb.DeleteRequest.cf");
-    target = stream->WriteStringMaybeAliased(
-        1, this->_internal_cf(), target);
+    target =
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteStringToArray(
+        1, this->cf(), target);
   }
 
   // bytes key = 2;
   if (this->key().size() > 0) {
-    target = stream->WriteBytesMaybeAliased(
-        2, this->_internal_key(), target);
+    target =
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesToArray(
+        2, this->key(), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.DeleteRequest)
   return target;
@@ -1878,6 +2292,11 @@ size_t DeleteRequest::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.DeleteRequest)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -1886,20 +2305,16 @@ size_t DeleteRequest::ByteSizeLong() const {
   if (this->cf().size() > 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
-        this->_internal_cf());
+        this->cf());
   }
 
   // bytes key = 2;
   if (this->key().size() > 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
-        this->_internal_key());
+        this->key());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -1923,15 +2338,17 @@ void DeleteRequest::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void DeleteRequest::MergeFrom(const DeleteRequest& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.DeleteRequest)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.cf().size() > 0) {
-    _internal_set_cf(from._internal_cf());
+
+    cf_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.cf_);
   }
   if (from.key().size() > 0) {
-    _internal_set_key(from._internal_key());
+
+    key_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.key_);
   }
 }
 
@@ -1953,11 +2370,17 @@ bool DeleteRequest::IsInitialized() const {
   return true;
 }
 
+void DeleteRequest::Swap(DeleteRequest* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void DeleteRequest::InternalSwap(DeleteRequest* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  cf_.Swap(&other->cf_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  key_.Swap(&other->key_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  cf_.Swap(&other->cf_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  key_.Swap(&other->key_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata DeleteRequest::GetMetadata() const {
@@ -1967,19 +2390,24 @@ void DeleteRequest::InternalSwap(DeleteRequest* other) {
 
 // ===================================================================
 
-class DeleteResponse::_Internal {
+void DeleteResponse::InitAsDefaultInstance() {
+}
+class DeleteResponse::HasBitSetters {
  public:
 };
 
-DeleteResponse::DeleteResponse(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+DeleteResponse::DeleteResponse()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.DeleteResponse)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.DeleteResponse)
 }
 DeleteResponse::DeleteResponse(const DeleteResponse& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   // @@protoc_insertion_point(copy_constructor:raft_cmdpb.DeleteResponse)
 }
 
@@ -1989,19 +2417,11 @@ void DeleteResponse::SharedCtor() {
 DeleteResponse::~DeleteResponse() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.DeleteResponse)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void DeleteResponse::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
 }
 
-void DeleteResponse::ArenaDtor(void* object) {
-  DeleteResponse* _this = reinterpret_cast< DeleteResponse* >(object);
-  (void)_this;
-}
-void DeleteResponse::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void DeleteResponse::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -2017,24 +2437,27 @@ void DeleteResponse::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* DeleteResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
     ::PROTOBUF_NAMESPACE_ID::uint32 tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
+    switch (tag >> 3) {
+      default: {
         if ((tag & 7) == 4 || tag == 0) {
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
+      }
+    }  // switch
   }  // while
 success:
   return ptr;
@@ -2043,16 +2466,55 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool DeleteResponse::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.DeleteResponse)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+  handle_unusual:
+    if (tag == 0) {
+      goto success;
+    }
+    DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+          input, tag, _internal_metadata_.mutable_unknown_fields()));
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.DeleteResponse)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.DeleteResponse)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 
-::PROTOBUF_NAMESPACE_ID::uint8* DeleteResponse::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+void DeleteResponse::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.DeleteResponse)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.DeleteResponse)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* DeleteResponse::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.DeleteResponse)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.DeleteResponse)
   return target;
@@ -2062,14 +2524,15 @@ size_t DeleteResponse::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.DeleteResponse)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -2093,7 +2556,7 @@ void DeleteResponse::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void DeleteResponse::MergeFrom(const DeleteResponse& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.DeleteResponse)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -2117,9 +2580,13 @@ bool DeleteResponse::IsInitialized() const {
   return true;
 }
 
+void DeleteResponse::Swap(DeleteResponse* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void DeleteResponse::InternalSwap(DeleteResponse* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata DeleteResponse::GetMetadata() const {
@@ -2129,19 +2596,24 @@ void DeleteResponse::InternalSwap(DeleteResponse* other) {
 
 // ===================================================================
 
-class SnapRequest::_Internal {
+void SnapRequest::InitAsDefaultInstance() {
+}
+class SnapRequest::HasBitSetters {
  public:
 };
 
-SnapRequest::SnapRequest(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+SnapRequest::SnapRequest()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.SnapRequest)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.SnapRequest)
 }
 SnapRequest::SnapRequest(const SnapRequest& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   // @@protoc_insertion_point(copy_constructor:raft_cmdpb.SnapRequest)
 }
 
@@ -2151,19 +2623,11 @@ void SnapRequest::SharedCtor() {
 SnapRequest::~SnapRequest() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.SnapRequest)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void SnapRequest::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
 }
 
-void SnapRequest::ArenaDtor(void* object) {
-  SnapRequest* _this = reinterpret_cast< SnapRequest* >(object);
-  (void)_this;
-}
-void SnapRequest::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SnapRequest::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -2179,24 +2643,27 @@ void SnapRequest::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* SnapRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
     ::PROTOBUF_NAMESPACE_ID::uint32 tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
+    switch (tag >> 3) {
+      default: {
         if ((tag & 7) == 4 || tag == 0) {
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
+      }
+    }  // switch
   }  // while
 success:
   return ptr;
@@ -2205,16 +2672,55 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool SnapRequest::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.SnapRequest)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+  handle_unusual:
+    if (tag == 0) {
+      goto success;
+    }
+    DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+          input, tag, _internal_metadata_.mutable_unknown_fields()));
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.SnapRequest)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.SnapRequest)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 
-::PROTOBUF_NAMESPACE_ID::uint8* SnapRequest::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+void SnapRequest::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.SnapRequest)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.SnapRequest)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* SnapRequest::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.SnapRequest)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.SnapRequest)
   return target;
@@ -2224,14 +2730,15 @@ size_t SnapRequest::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.SnapRequest)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -2255,7 +2762,7 @@ void SnapRequest::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void SnapRequest::MergeFrom(const SnapRequest& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.SnapRequest)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -2279,9 +2786,13 @@ bool SnapRequest::IsInitialized() const {
   return true;
 }
 
+void SnapRequest::Swap(SnapRequest* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void SnapRequest::InternalSwap(SnapRequest* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata SnapRequest::GetMetadata() const {
@@ -2291,31 +2802,39 @@ void SnapRequest::InternalSwap(SnapRequest* other) {
 
 // ===================================================================
 
-class SnapResponse::_Internal {
+void SnapResponse::InitAsDefaultInstance() {
+  ::raft_cmdpb::_SnapResponse_default_instance_._instance.get_mutable()->region_ = const_cast< ::metapb::Region*>(
+      ::metapb::Region::internal_default_instance());
+}
+class SnapResponse::HasBitSetters {
  public:
   static const ::metapb::Region& region(const SnapResponse* msg);
 };
 
 const ::metapb::Region&
-SnapResponse::_Internal::region(const SnapResponse* msg) {
+SnapResponse::HasBitSetters::region(const SnapResponse* msg) {
   return *msg->region_;
 }
 void SnapResponse::clear_region() {
-  if (GetArena() == nullptr && region_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && region_ != nullptr) {
     delete region_;
   }
   region_ = nullptr;
 }
-SnapResponse::SnapResponse(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int SnapResponse::kRegionFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+SnapResponse::SnapResponse()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.SnapResponse)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.SnapResponse)
 }
 SnapResponse::SnapResponse(const SnapResponse& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  if (from._internal_has_region()) {
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_region()) {
     region_ = new ::metapb::Region(*from.region_);
   } else {
     region_ = nullptr;
@@ -2331,20 +2850,12 @@ void SnapResponse::SharedCtor() {
 SnapResponse::~SnapResponse() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.SnapResponse)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void SnapResponse::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   if (this != internal_default_instance()) delete region_;
 }
 
-void SnapResponse::ArenaDtor(void* object) {
-  SnapResponse* _this = reinterpret_cast< SnapResponse* >(object);
-  (void)_this;
-}
-void SnapResponse::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SnapResponse::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -2360,13 +2871,14 @@ void SnapResponse::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (GetArena() == nullptr && region_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && region_ != nullptr) {
     delete region_;
   }
   region_ = nullptr;
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* SnapResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -2377,7 +2889,7 @@ const char* SnapResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_I
       // .metapb.Region region = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
-          ptr = ctx->ParseMessage(_internal_mutable_region(), ptr);
+          ptr = ctx->ParseMessage(mutable_region(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -2387,9 +2899,7 @@ const char* SnapResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_I
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -2402,24 +2912,84 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool SnapResponse::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.SnapResponse)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .metapb.Region region = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (10 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_region()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SnapResponse::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.SnapResponse)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.SnapResponse)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void SnapResponse::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.SnapResponse)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .metapb.Region region = 1;
+  if (this->has_region()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, HasBitSetters::region(this), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.SnapResponse)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* SnapResponse::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.SnapResponse)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // .metapb.Region region = 1;
   if (this->has_region()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        1, _Internal::region(this), target, stream);
+      InternalWriteMessageToArray(
+        1, HasBitSetters::region(this), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.SnapResponse)
   return target;
@@ -2429,6 +2999,11 @@ size_t SnapResponse::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.SnapResponse)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -2440,10 +3015,6 @@ size_t SnapResponse::ByteSizeLong() const {
         *region_);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -2467,12 +3038,12 @@ void SnapResponse::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void SnapResponse::MergeFrom(const SnapResponse& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.SnapResponse)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.has_region()) {
-    _internal_mutable_region()->::metapb::Region::MergeFrom(from._internal_region());
+    mutable_region()->::metapb::Region::MergeFrom(from.region());
   }
 }
 
@@ -2494,9 +3065,13 @@ bool SnapResponse::IsInitialized() const {
   return true;
 }
 
+void SnapResponse::Swap(SnapResponse* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void SnapResponse::InternalSwap(SnapResponse* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
   swap(region_, other->region_);
 }
 
@@ -2507,7 +3082,17 @@ void SnapResponse::InternalSwap(SnapResponse* other) {
 
 // ===================================================================
 
-class Request::_Internal {
+void Request::InitAsDefaultInstance() {
+  ::raft_cmdpb::_Request_default_instance_._instance.get_mutable()->get_ = const_cast< ::raft_cmdpb::GetRequest*>(
+      ::raft_cmdpb::GetRequest::internal_default_instance());
+  ::raft_cmdpb::_Request_default_instance_._instance.get_mutable()->put_ = const_cast< ::raft_cmdpb::PutRequest*>(
+      ::raft_cmdpb::PutRequest::internal_default_instance());
+  ::raft_cmdpb::_Request_default_instance_._instance.get_mutable()->delete__ = const_cast< ::raft_cmdpb::DeleteRequest*>(
+      ::raft_cmdpb::DeleteRequest::internal_default_instance());
+  ::raft_cmdpb::_Request_default_instance_._instance.get_mutable()->snap_ = const_cast< ::raft_cmdpb::SnapRequest*>(
+      ::raft_cmdpb::SnapRequest::internal_default_instance());
+}
+class Request::HasBitSetters {
  public:
   static const ::raft_cmdpb::GetRequest& get(const Request* msg);
   static const ::raft_cmdpb::PutRequest& put(const Request* msg);
@@ -2516,46 +3101,54 @@ class Request::_Internal {
 };
 
 const ::raft_cmdpb::GetRequest&
-Request::_Internal::get(const Request* msg) {
+Request::HasBitSetters::get(const Request* msg) {
   return *msg->get_;
 }
 const ::raft_cmdpb::PutRequest&
-Request::_Internal::put(const Request* msg) {
+Request::HasBitSetters::put(const Request* msg) {
   return *msg->put_;
 }
 const ::raft_cmdpb::DeleteRequest&
-Request::_Internal::delete_(const Request* msg) {
+Request::HasBitSetters::delete_(const Request* msg) {
   return *msg->delete__;
 }
 const ::raft_cmdpb::SnapRequest&
-Request::_Internal::snap(const Request* msg) {
+Request::HasBitSetters::snap(const Request* msg) {
   return *msg->snap_;
 }
-Request::Request(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int Request::kCmdTypeFieldNumber;
+const int Request::kGetFieldNumber;
+const int Request::kPutFieldNumber;
+const int Request::kDeleteFieldNumber;
+const int Request::kSnapFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+Request::Request()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.Request)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.Request)
 }
 Request::Request(const Request& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  if (from._internal_has_get()) {
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_get()) {
     get_ = new ::raft_cmdpb::GetRequest(*from.get_);
   } else {
     get_ = nullptr;
   }
-  if (from._internal_has_put()) {
+  if (from.has_put()) {
     put_ = new ::raft_cmdpb::PutRequest(*from.put_);
   } else {
     put_ = nullptr;
   }
-  if (from._internal_has_delete_()) {
+  if (from.has_delete_()) {
     delete__ = new ::raft_cmdpb::DeleteRequest(*from.delete__);
   } else {
     delete__ = nullptr;
   }
-  if (from._internal_has_snap()) {
+  if (from.has_snap()) {
     snap_ = new ::raft_cmdpb::SnapRequest(*from.snap_);
   } else {
     snap_ = nullptr;
@@ -2566,32 +3159,23 @@ Request::Request(const Request& from)
 
 void Request::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Request_raft_5fcmdpb_2eproto.base);
-  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
-      reinterpret_cast<char*>(&get_) - reinterpret_cast<char*>(this)),
-      0, static_cast<size_t>(reinterpret_cast<char*>(&cmd_type_) -
+  ::memset(&get_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&cmd_type_) -
       reinterpret_cast<char*>(&get_)) + sizeof(cmd_type_));
 }
 
 Request::~Request() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.Request)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void Request::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   if (this != internal_default_instance()) delete get_;
   if (this != internal_default_instance()) delete put_;
   if (this != internal_default_instance()) delete delete__;
   if (this != internal_default_instance()) delete snap_;
 }
 
-void Request::ArenaDtor(void* object) {
-  Request* _this = reinterpret_cast< Request* >(object);
-  (void)_this;
-}
-void Request::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void Request::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -2607,26 +3191,27 @@ void Request::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (GetArena() == nullptr && get_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && get_ != nullptr) {
     delete get_;
   }
   get_ = nullptr;
-  if (GetArena() == nullptr && put_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && put_ != nullptr) {
     delete put_;
   }
   put_ = nullptr;
-  if (GetArena() == nullptr && delete__ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && delete__ != nullptr) {
     delete delete__;
   }
   delete__ = nullptr;
-  if (GetArena() == nullptr && snap_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && snap_ != nullptr) {
     delete snap_;
   }
   snap_ = nullptr;
   cmd_type_ = 0;
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* Request::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -2637,36 +3222,36 @@ const char* Request::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::in
       // .raft_cmdpb.CmdType cmd_type = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
-          _internal_set_cmd_type(static_cast<::raft_cmdpb::CmdType>(val));
+          set_cmd_type(static_cast<::raft_cmdpb::CmdType>(val));
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.GetRequest get = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
-          ptr = ctx->ParseMessage(_internal_mutable_get(), ptr);
+          ptr = ctx->ParseMessage(mutable_get(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.PutRequest put = 4;
       case 4:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
-          ptr = ctx->ParseMessage(_internal_mutable_put(), ptr);
+          ptr = ctx->ParseMessage(mutable_put(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.DeleteRequest delete = 5;
       case 5:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
-          ptr = ctx->ParseMessage(_internal_mutable_delete_(), ptr);
+          ptr = ctx->ParseMessage(mutable_delete_(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.SnapRequest snap = 6;
       case 6:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
-          ptr = ctx->ParseMessage(_internal_mutable_snap(), ptr);
+          ptr = ctx->ParseMessage(mutable_snap(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -2676,9 +3261,7 @@ const char* Request::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::in
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -2691,55 +3274,182 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool Request::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.Request)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .raft_cmdpb.CmdType cmd_type = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (8 & 0xFF)) {
+          int value = 0;
+          DO_((::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadPrimitive<
+                   int, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_cmd_type(static_cast< ::raft_cmdpb::CmdType >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* Request::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      // .raft_cmdpb.GetRequest get = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (18 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_get()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.PutRequest put = 4;
+      case 4: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (34 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_put()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.DeleteRequest delete = 5;
+      case 5: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (42 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_delete_()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.SnapRequest snap = 6;
+      case 6: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (50 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_snap()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.Request)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.Request)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void Request::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.Request)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .raft_cmdpb.CmdType cmd_type = 1;
+  if (this->cmd_type() != 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnum(
+      1, this->cmd_type(), output);
+  }
+
+  // .raft_cmdpb.GetRequest get = 2;
+  if (this->has_get()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, HasBitSetters::get(this), output);
+  }
+
+  // .raft_cmdpb.PutRequest put = 4;
+  if (this->has_put()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      4, HasBitSetters::put(this), output);
+  }
+
+  // .raft_cmdpb.DeleteRequest delete = 5;
+  if (this->has_delete_()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      5, HasBitSetters::delete_(this), output);
+  }
+
+  // .raft_cmdpb.SnapRequest snap = 6;
+  if (this->has_snap()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      6, HasBitSetters::snap(this), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.Request)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* Request::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.Request)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // .raft_cmdpb.CmdType cmd_type = 1;
   if (this->cmd_type() != 0) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      1, this->_internal_cmd_type(), target);
+      1, this->cmd_type(), target);
   }
 
   // .raft_cmdpb.GetRequest get = 2;
   if (this->has_get()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        2, _Internal::get(this), target, stream);
+      InternalWriteMessageToArray(
+        2, HasBitSetters::get(this), target);
   }
 
   // .raft_cmdpb.PutRequest put = 4;
   if (this->has_put()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        4, _Internal::put(this), target, stream);
+      InternalWriteMessageToArray(
+        4, HasBitSetters::put(this), target);
   }
 
   // .raft_cmdpb.DeleteRequest delete = 5;
   if (this->has_delete_()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        5, _Internal::delete_(this), target, stream);
+      InternalWriteMessageToArray(
+        5, HasBitSetters::delete_(this), target);
   }
 
   // .raft_cmdpb.SnapRequest snap = 6;
   if (this->has_snap()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        6, _Internal::snap(this), target, stream);
+      InternalWriteMessageToArray(
+        6, HasBitSetters::snap(this), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.Request)
   return target;
@@ -2749,6 +3459,11 @@ size_t Request::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.Request)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -2784,13 +3499,9 @@ size_t Request::ByteSizeLong() const {
   // .raft_cmdpb.CmdType cmd_type = 1;
   if (this->cmd_type() != 0) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_cmd_type());
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->cmd_type());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -2814,24 +3525,24 @@ void Request::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void Request::MergeFrom(const Request& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.Request)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.has_get()) {
-    _internal_mutable_get()->::raft_cmdpb::GetRequest::MergeFrom(from._internal_get());
+    mutable_get()->::raft_cmdpb::GetRequest::MergeFrom(from.get());
   }
   if (from.has_put()) {
-    _internal_mutable_put()->::raft_cmdpb::PutRequest::MergeFrom(from._internal_put());
+    mutable_put()->::raft_cmdpb::PutRequest::MergeFrom(from.put());
   }
   if (from.has_delete_()) {
-    _internal_mutable_delete_()->::raft_cmdpb::DeleteRequest::MergeFrom(from._internal_delete_());
+    mutable_delete_()->::raft_cmdpb::DeleteRequest::MergeFrom(from.delete_());
   }
   if (from.has_snap()) {
-    _internal_mutable_snap()->::raft_cmdpb::SnapRequest::MergeFrom(from._internal_snap());
+    mutable_snap()->::raft_cmdpb::SnapRequest::MergeFrom(from.snap());
   }
   if (from.cmd_type() != 0) {
-    _internal_set_cmd_type(from._internal_cmd_type());
+    set_cmd_type(from.cmd_type());
   }
 }
 
@@ -2853,15 +3564,18 @@ bool Request::IsInitialized() const {
   return true;
 }
 
+void Request::Swap(Request* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void Request::InternalSwap(Request* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(Request, cmd_type_)
-      + sizeof(Request::cmd_type_)
-      - PROTOBUF_FIELD_OFFSET(Request, get_)>(
-          reinterpret_cast<char*>(&get_),
-          reinterpret_cast<char*>(&other->get_));
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(get_, other->get_);
+  swap(put_, other->put_);
+  swap(delete__, other->delete__);
+  swap(snap_, other->snap_);
+  swap(cmd_type_, other->cmd_type_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata Request::GetMetadata() const {
@@ -2871,7 +3585,17 @@ void Request::InternalSwap(Request* other) {
 
 // ===================================================================
 
-class Response::_Internal {
+void Response::InitAsDefaultInstance() {
+  ::raft_cmdpb::_Response_default_instance_._instance.get_mutable()->get_ = const_cast< ::raft_cmdpb::GetResponse*>(
+      ::raft_cmdpb::GetResponse::internal_default_instance());
+  ::raft_cmdpb::_Response_default_instance_._instance.get_mutable()->put_ = const_cast< ::raft_cmdpb::PutResponse*>(
+      ::raft_cmdpb::PutResponse::internal_default_instance());
+  ::raft_cmdpb::_Response_default_instance_._instance.get_mutable()->delete__ = const_cast< ::raft_cmdpb::DeleteResponse*>(
+      ::raft_cmdpb::DeleteResponse::internal_default_instance());
+  ::raft_cmdpb::_Response_default_instance_._instance.get_mutable()->snap_ = const_cast< ::raft_cmdpb::SnapResponse*>(
+      ::raft_cmdpb::SnapResponse::internal_default_instance());
+}
+class Response::HasBitSetters {
  public:
   static const ::raft_cmdpb::GetResponse& get(const Response* msg);
   static const ::raft_cmdpb::PutResponse& put(const Response* msg);
@@ -2880,46 +3604,54 @@ class Response::_Internal {
 };
 
 const ::raft_cmdpb::GetResponse&
-Response::_Internal::get(const Response* msg) {
+Response::HasBitSetters::get(const Response* msg) {
   return *msg->get_;
 }
 const ::raft_cmdpb::PutResponse&
-Response::_Internal::put(const Response* msg) {
+Response::HasBitSetters::put(const Response* msg) {
   return *msg->put_;
 }
 const ::raft_cmdpb::DeleteResponse&
-Response::_Internal::delete_(const Response* msg) {
+Response::HasBitSetters::delete_(const Response* msg) {
   return *msg->delete__;
 }
 const ::raft_cmdpb::SnapResponse&
-Response::_Internal::snap(const Response* msg) {
+Response::HasBitSetters::snap(const Response* msg) {
   return *msg->snap_;
 }
-Response::Response(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int Response::kCmdTypeFieldNumber;
+const int Response::kGetFieldNumber;
+const int Response::kPutFieldNumber;
+const int Response::kDeleteFieldNumber;
+const int Response::kSnapFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+Response::Response()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.Response)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.Response)
 }
 Response::Response(const Response& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  if (from._internal_has_get()) {
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_get()) {
     get_ = new ::raft_cmdpb::GetResponse(*from.get_);
   } else {
     get_ = nullptr;
   }
-  if (from._internal_has_put()) {
+  if (from.has_put()) {
     put_ = new ::raft_cmdpb::PutResponse(*from.put_);
   } else {
     put_ = nullptr;
   }
-  if (from._internal_has_delete_()) {
+  if (from.has_delete_()) {
     delete__ = new ::raft_cmdpb::DeleteResponse(*from.delete__);
   } else {
     delete__ = nullptr;
   }
-  if (from._internal_has_snap()) {
+  if (from.has_snap()) {
     snap_ = new ::raft_cmdpb::SnapResponse(*from.snap_);
   } else {
     snap_ = nullptr;
@@ -2930,32 +3662,23 @@ Response::Response(const Response& from)
 
 void Response::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Response_raft_5fcmdpb_2eproto.base);
-  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
-      reinterpret_cast<char*>(&get_) - reinterpret_cast<char*>(this)),
-      0, static_cast<size_t>(reinterpret_cast<char*>(&cmd_type_) -
+  ::memset(&get_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&cmd_type_) -
       reinterpret_cast<char*>(&get_)) + sizeof(cmd_type_));
 }
 
 Response::~Response() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.Response)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void Response::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   if (this != internal_default_instance()) delete get_;
   if (this != internal_default_instance()) delete put_;
   if (this != internal_default_instance()) delete delete__;
   if (this != internal_default_instance()) delete snap_;
 }
 
-void Response::ArenaDtor(void* object) {
-  Response* _this = reinterpret_cast< Response* >(object);
-  (void)_this;
-}
-void Response::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void Response::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -2971,26 +3694,27 @@ void Response::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (GetArena() == nullptr && get_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && get_ != nullptr) {
     delete get_;
   }
   get_ = nullptr;
-  if (GetArena() == nullptr && put_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && put_ != nullptr) {
     delete put_;
   }
   put_ = nullptr;
-  if (GetArena() == nullptr && delete__ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && delete__ != nullptr) {
     delete delete__;
   }
   delete__ = nullptr;
-  if (GetArena() == nullptr && snap_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && snap_ != nullptr) {
     delete snap_;
   }
   snap_ = nullptr;
   cmd_type_ = 0;
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* Response::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -3001,36 +3725,36 @@ const char* Response::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::i
       // .raft_cmdpb.CmdType cmd_type = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
-          _internal_set_cmd_type(static_cast<::raft_cmdpb::CmdType>(val));
+          set_cmd_type(static_cast<::raft_cmdpb::CmdType>(val));
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.GetResponse get = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
-          ptr = ctx->ParseMessage(_internal_mutable_get(), ptr);
+          ptr = ctx->ParseMessage(mutable_get(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.PutResponse put = 4;
       case 4:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
-          ptr = ctx->ParseMessage(_internal_mutable_put(), ptr);
+          ptr = ctx->ParseMessage(mutable_put(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.DeleteResponse delete = 5;
       case 5:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
-          ptr = ctx->ParseMessage(_internal_mutable_delete_(), ptr);
+          ptr = ctx->ParseMessage(mutable_delete_(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.SnapResponse snap = 6;
       case 6:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
-          ptr = ctx->ParseMessage(_internal_mutable_snap(), ptr);
+          ptr = ctx->ParseMessage(mutable_snap(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -3040,9 +3764,7 @@ const char* Response::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::i
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -3055,55 +3777,182 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool Response::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.Response)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .raft_cmdpb.CmdType cmd_type = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (8 & 0xFF)) {
+          int value = 0;
+          DO_((::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadPrimitive<
+                   int, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_cmd_type(static_cast< ::raft_cmdpb::CmdType >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* Response::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      // .raft_cmdpb.GetResponse get = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (18 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_get()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.PutResponse put = 4;
+      case 4: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (34 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_put()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.DeleteResponse delete = 5;
+      case 5: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (42 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_delete_()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.SnapResponse snap = 6;
+      case 6: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (50 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_snap()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.Response)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.Response)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void Response::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.Response)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .raft_cmdpb.CmdType cmd_type = 1;
+  if (this->cmd_type() != 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnum(
+      1, this->cmd_type(), output);
+  }
+
+  // .raft_cmdpb.GetResponse get = 2;
+  if (this->has_get()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, HasBitSetters::get(this), output);
+  }
+
+  // .raft_cmdpb.PutResponse put = 4;
+  if (this->has_put()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      4, HasBitSetters::put(this), output);
+  }
+
+  // .raft_cmdpb.DeleteResponse delete = 5;
+  if (this->has_delete_()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      5, HasBitSetters::delete_(this), output);
+  }
+
+  // .raft_cmdpb.SnapResponse snap = 6;
+  if (this->has_snap()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      6, HasBitSetters::snap(this), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.Response)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* Response::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.Response)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // .raft_cmdpb.CmdType cmd_type = 1;
   if (this->cmd_type() != 0) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      1, this->_internal_cmd_type(), target);
+      1, this->cmd_type(), target);
   }
 
   // .raft_cmdpb.GetResponse get = 2;
   if (this->has_get()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        2, _Internal::get(this), target, stream);
+      InternalWriteMessageToArray(
+        2, HasBitSetters::get(this), target);
   }
 
   // .raft_cmdpb.PutResponse put = 4;
   if (this->has_put()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        4, _Internal::put(this), target, stream);
+      InternalWriteMessageToArray(
+        4, HasBitSetters::put(this), target);
   }
 
   // .raft_cmdpb.DeleteResponse delete = 5;
   if (this->has_delete_()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        5, _Internal::delete_(this), target, stream);
+      InternalWriteMessageToArray(
+        5, HasBitSetters::delete_(this), target);
   }
 
   // .raft_cmdpb.SnapResponse snap = 6;
   if (this->has_snap()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        6, _Internal::snap(this), target, stream);
+      InternalWriteMessageToArray(
+        6, HasBitSetters::snap(this), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.Response)
   return target;
@@ -3113,6 +3962,11 @@ size_t Response::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.Response)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -3148,13 +4002,9 @@ size_t Response::ByteSizeLong() const {
   // .raft_cmdpb.CmdType cmd_type = 1;
   if (this->cmd_type() != 0) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_cmd_type());
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->cmd_type());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -3178,24 +4028,24 @@ void Response::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void Response::MergeFrom(const Response& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.Response)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.has_get()) {
-    _internal_mutable_get()->::raft_cmdpb::GetResponse::MergeFrom(from._internal_get());
+    mutable_get()->::raft_cmdpb::GetResponse::MergeFrom(from.get());
   }
   if (from.has_put()) {
-    _internal_mutable_put()->::raft_cmdpb::PutResponse::MergeFrom(from._internal_put());
+    mutable_put()->::raft_cmdpb::PutResponse::MergeFrom(from.put());
   }
   if (from.has_delete_()) {
-    _internal_mutable_delete_()->::raft_cmdpb::DeleteResponse::MergeFrom(from._internal_delete_());
+    mutable_delete_()->::raft_cmdpb::DeleteResponse::MergeFrom(from.delete_());
   }
   if (from.has_snap()) {
-    _internal_mutable_snap()->::raft_cmdpb::SnapResponse::MergeFrom(from._internal_snap());
+    mutable_snap()->::raft_cmdpb::SnapResponse::MergeFrom(from.snap());
   }
   if (from.cmd_type() != 0) {
-    _internal_set_cmd_type(from._internal_cmd_type());
+    set_cmd_type(from.cmd_type());
   }
 }
 
@@ -3217,15 +4067,18 @@ bool Response::IsInitialized() const {
   return true;
 }
 
+void Response::Swap(Response* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void Response::InternalSwap(Response* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(Response, cmd_type_)
-      + sizeof(Response::cmd_type_)
-      - PROTOBUF_FIELD_OFFSET(Response, get_)>(
-          reinterpret_cast<char*>(&get_),
-          reinterpret_cast<char*>(&other->get_));
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(get_, other->get_);
+  swap(put_, other->put_);
+  swap(delete__, other->delete__);
+  swap(snap_, other->snap_);
+  swap(cmd_type_, other->cmd_type_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata Response::GetMetadata() const {
@@ -3235,31 +4088,40 @@ void Response::InternalSwap(Response* other) {
 
 // ===================================================================
 
-class ChangePeerRequest::_Internal {
+void ChangePeerRequest::InitAsDefaultInstance() {
+  ::raft_cmdpb::_ChangePeerRequest_default_instance_._instance.get_mutable()->peer_ = const_cast< ::metapb::Peer*>(
+      ::metapb::Peer::internal_default_instance());
+}
+class ChangePeerRequest::HasBitSetters {
  public:
   static const ::metapb::Peer& peer(const ChangePeerRequest* msg);
 };
 
 const ::metapb::Peer&
-ChangePeerRequest::_Internal::peer(const ChangePeerRequest* msg) {
+ChangePeerRequest::HasBitSetters::peer(const ChangePeerRequest* msg) {
   return *msg->peer_;
 }
 void ChangePeerRequest::clear_peer() {
-  if (GetArena() == nullptr && peer_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && peer_ != nullptr) {
     delete peer_;
   }
   peer_ = nullptr;
 }
-ChangePeerRequest::ChangePeerRequest(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int ChangePeerRequest::kChangeTypeFieldNumber;
+const int ChangePeerRequest::kPeerFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+ChangePeerRequest::ChangePeerRequest()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.ChangePeerRequest)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.ChangePeerRequest)
 }
 ChangePeerRequest::ChangePeerRequest(const ChangePeerRequest& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  if (from._internal_has_peer()) {
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_peer()) {
     peer_ = new ::metapb::Peer(*from.peer_);
   } else {
     peer_ = nullptr;
@@ -3270,29 +4132,20 @@ ChangePeerRequest::ChangePeerRequest(const ChangePeerRequest& from)
 
 void ChangePeerRequest::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_ChangePeerRequest_raft_5fcmdpb_2eproto.base);
-  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
-      reinterpret_cast<char*>(&peer_) - reinterpret_cast<char*>(this)),
-      0, static_cast<size_t>(reinterpret_cast<char*>(&change_type_) -
+  ::memset(&peer_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&change_type_) -
       reinterpret_cast<char*>(&peer_)) + sizeof(change_type_));
 }
 
 ChangePeerRequest::~ChangePeerRequest() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.ChangePeerRequest)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void ChangePeerRequest::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   if (this != internal_default_instance()) delete peer_;
 }
 
-void ChangePeerRequest::ArenaDtor(void* object) {
-  ChangePeerRequest* _this = reinterpret_cast< ChangePeerRequest* >(object);
-  (void)_this;
-}
-void ChangePeerRequest::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void ChangePeerRequest::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -3308,14 +4161,15 @@ void ChangePeerRequest::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (GetArena() == nullptr && peer_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && peer_ != nullptr) {
     delete peer_;
   }
   peer_ = nullptr;
   change_type_ = 0;
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* ChangePeerRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -3326,15 +4180,15 @@ const char* ChangePeerRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESP
       // .eraftpb.ConfChangeType change_type = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
-          _internal_set_change_type(static_cast<::eraftpb::ConfChangeType>(val));
+          set_change_type(static_cast<::eraftpb::ConfChangeType>(val));
         } else goto handle_unusual;
         continue;
       // .metapb.Peer peer = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
-          ptr = ctx->ParseMessage(_internal_mutable_peer(), ptr);
+          ptr = ctx->ParseMessage(mutable_peer(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -3344,9 +4198,7 @@ const char* ChangePeerRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESP
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -3359,31 +4211,110 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool ChangePeerRequest::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.ChangePeerRequest)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .eraftpb.ConfChangeType change_type = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (8 & 0xFF)) {
+          int value = 0;
+          DO_((::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadPrimitive<
+                   int, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_change_type(static_cast< ::eraftpb::ConfChangeType >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* ChangePeerRequest::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      // .metapb.Peer peer = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (18 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_peer()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.ChangePeerRequest)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.ChangePeerRequest)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void ChangePeerRequest::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.ChangePeerRequest)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .eraftpb.ConfChangeType change_type = 1;
+  if (this->change_type() != 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnum(
+      1, this->change_type(), output);
+  }
+
+  // .metapb.Peer peer = 2;
+  if (this->has_peer()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, HasBitSetters::peer(this), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.ChangePeerRequest)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* ChangePeerRequest::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.ChangePeerRequest)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // .eraftpb.ConfChangeType change_type = 1;
   if (this->change_type() != 0) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      1, this->_internal_change_type(), target);
+      1, this->change_type(), target);
   }
 
   // .metapb.Peer peer = 2;
   if (this->has_peer()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        2, _Internal::peer(this), target, stream);
+      InternalWriteMessageToArray(
+        2, HasBitSetters::peer(this), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.ChangePeerRequest)
   return target;
@@ -3393,6 +4324,11 @@ size_t ChangePeerRequest::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.ChangePeerRequest)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -3407,13 +4343,9 @@ size_t ChangePeerRequest::ByteSizeLong() const {
   // .eraftpb.ConfChangeType change_type = 1;
   if (this->change_type() != 0) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_change_type());
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->change_type());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -3437,15 +4369,15 @@ void ChangePeerRequest::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) 
 void ChangePeerRequest::MergeFrom(const ChangePeerRequest& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.ChangePeerRequest)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.has_peer()) {
-    _internal_mutable_peer()->::metapb::Peer::MergeFrom(from._internal_peer());
+    mutable_peer()->::metapb::Peer::MergeFrom(from.peer());
   }
   if (from.change_type() != 0) {
-    _internal_set_change_type(from._internal_change_type());
+    set_change_type(from.change_type());
   }
 }
 
@@ -3467,15 +4399,15 @@ bool ChangePeerRequest::IsInitialized() const {
   return true;
 }
 
+void ChangePeerRequest::Swap(ChangePeerRequest* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void ChangePeerRequest::InternalSwap(ChangePeerRequest* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(ChangePeerRequest, change_type_)
-      + sizeof(ChangePeerRequest::change_type_)
-      - PROTOBUF_FIELD_OFFSET(ChangePeerRequest, peer_)>(
-          reinterpret_cast<char*>(&peer_),
-          reinterpret_cast<char*>(&other->peer_));
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(peer_, other->peer_);
+  swap(change_type_, other->change_type_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata ChangePeerRequest::GetMetadata() const {
@@ -3485,31 +4417,39 @@ void ChangePeerRequest::InternalSwap(ChangePeerRequest* other) {
 
 // ===================================================================
 
-class ChangePeerResponse::_Internal {
+void ChangePeerResponse::InitAsDefaultInstance() {
+  ::raft_cmdpb::_ChangePeerResponse_default_instance_._instance.get_mutable()->region_ = const_cast< ::metapb::Region*>(
+      ::metapb::Region::internal_default_instance());
+}
+class ChangePeerResponse::HasBitSetters {
  public:
   static const ::metapb::Region& region(const ChangePeerResponse* msg);
 };
 
 const ::metapb::Region&
-ChangePeerResponse::_Internal::region(const ChangePeerResponse* msg) {
+ChangePeerResponse::HasBitSetters::region(const ChangePeerResponse* msg) {
   return *msg->region_;
 }
 void ChangePeerResponse::clear_region() {
-  if (GetArena() == nullptr && region_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && region_ != nullptr) {
     delete region_;
   }
   region_ = nullptr;
 }
-ChangePeerResponse::ChangePeerResponse(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int ChangePeerResponse::kRegionFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+ChangePeerResponse::ChangePeerResponse()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.ChangePeerResponse)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.ChangePeerResponse)
 }
 ChangePeerResponse::ChangePeerResponse(const ChangePeerResponse& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  if (from._internal_has_region()) {
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_region()) {
     region_ = new ::metapb::Region(*from.region_);
   } else {
     region_ = nullptr;
@@ -3525,20 +4465,12 @@ void ChangePeerResponse::SharedCtor() {
 ChangePeerResponse::~ChangePeerResponse() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.ChangePeerResponse)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void ChangePeerResponse::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   if (this != internal_default_instance()) delete region_;
 }
 
-void ChangePeerResponse::ArenaDtor(void* object) {
-  ChangePeerResponse* _this = reinterpret_cast< ChangePeerResponse* >(object);
-  (void)_this;
-}
-void ChangePeerResponse::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void ChangePeerResponse::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -3554,13 +4486,14 @@ void ChangePeerResponse::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (GetArena() == nullptr && region_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && region_ != nullptr) {
     delete region_;
   }
   region_ = nullptr;
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* ChangePeerResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -3571,7 +4504,7 @@ const char* ChangePeerResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMES
       // .metapb.Region region = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
-          ptr = ctx->ParseMessage(_internal_mutable_region(), ptr);
+          ptr = ctx->ParseMessage(mutable_region(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -3581,9 +4514,7 @@ const char* ChangePeerResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMES
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -3596,24 +4527,84 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool ChangePeerResponse::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.ChangePeerResponse)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .metapb.Region region = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (10 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_region()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* ChangePeerResponse::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.ChangePeerResponse)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.ChangePeerResponse)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void ChangePeerResponse::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.ChangePeerResponse)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .metapb.Region region = 1;
+  if (this->has_region()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, HasBitSetters::region(this), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.ChangePeerResponse)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* ChangePeerResponse::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.ChangePeerResponse)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // .metapb.Region region = 1;
   if (this->has_region()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        1, _Internal::region(this), target, stream);
+      InternalWriteMessageToArray(
+        1, HasBitSetters::region(this), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.ChangePeerResponse)
   return target;
@@ -3623,6 +4614,11 @@ size_t ChangePeerResponse::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.ChangePeerResponse)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -3634,10 +4630,6 @@ size_t ChangePeerResponse::ByteSizeLong() const {
         *region_);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -3661,12 +4653,12 @@ void ChangePeerResponse::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from)
 void ChangePeerResponse::MergeFrom(const ChangePeerResponse& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.ChangePeerResponse)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.has_region()) {
-    _internal_mutable_region()->::metapb::Region::MergeFrom(from._internal_region());
+    mutable_region()->::metapb::Region::MergeFrom(from.region());
   }
 }
 
@@ -3688,9 +4680,13 @@ bool ChangePeerResponse::IsInitialized() const {
   return true;
 }
 
+void ChangePeerResponse::Swap(ChangePeerResponse* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void ChangePeerResponse::InternalSwap(ChangePeerResponse* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
   swap(region_, other->region_);
 }
 
@@ -3701,25 +4697,31 @@ void ChangePeerResponse::InternalSwap(ChangePeerResponse* other) {
 
 // ===================================================================
 
-class SplitRequest::_Internal {
+void SplitRequest::InitAsDefaultInstance() {
+}
+class SplitRequest::HasBitSetters {
  public:
 };
 
-SplitRequest::SplitRequest(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena),
-  new_peer_ids_(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int SplitRequest::kSplitKeyFieldNumber;
+const int SplitRequest::kNewRegionIdFieldNumber;
+const int SplitRequest::kNewPeerIdsFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+SplitRequest::SplitRequest()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.SplitRequest)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.SplitRequest)
 }
 SplitRequest::SplitRequest(const SplitRequest& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr),
       new_peer_ids_(from.new_peer_ids_) {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   split_key_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_split_key().empty()) {
-    split_key_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_split_key(), 
-      GetArena());
+  if (from.split_key().size() > 0) {
+    split_key_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.split_key_);
   }
   new_region_id_ = from.new_region_id_;
   // @@protoc_insertion_point(copy_constructor:raft_cmdpb.SplitRequest)
@@ -3734,20 +4736,12 @@ void SplitRequest::SharedCtor() {
 SplitRequest::~SplitRequest() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.SplitRequest)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void SplitRequest::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   split_key_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 
-void SplitRequest::ArenaDtor(void* object) {
-  SplitRequest* _this = reinterpret_cast< SplitRequest* >(object);
-  (void)_this;
-}
-void SplitRequest::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SplitRequest::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -3764,11 +4758,12 @@ void SplitRequest::Clear() {
   (void) cached_has_bits;
 
   new_peer_ids_.Clear();
-  split_key_.ClearToEmpty();
+  split_key_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   new_region_id_ = PROTOBUF_ULONGLONG(0);
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* SplitRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -3779,25 +4774,24 @@ const char* SplitRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_I
       // bytes split_key = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
-          auto str = _internal_mutable_split_key();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(mutable_split_key(), ptr, ctx);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // uint64 new_region_id = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          new_region_id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          new_region_id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // repeated uint64 new_peer_ids = 3;
       case 3:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::PackedUInt64Parser(_internal_mutable_new_peer_ids(), ptr, ctx);
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::PackedUInt64Parser(mutable_new_peer_ids(), ptr, ctx);
           CHK_(ptr);
         } else if (static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24) {
-          _internal_add_new_peer_ids(::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr));
+          add_new_peer_ids(::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -3807,9 +4801,7 @@ const char* SplitRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_I
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -3822,37 +4814,147 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool SplitRequest::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.SplitRequest)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // bytes split_key = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (10 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadBytes(
+                input, this->mutable_split_key()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SplitRequest::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      // uint64 new_region_id = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (16 & 0xFF)) {
+
+          DO_((::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadPrimitive<
+                   ::PROTOBUF_NAMESPACE_ID::uint64, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_UINT64>(
+                 input, &new_region_id_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // repeated uint64 new_peer_ids = 3;
+      case 3: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (26 & 0xFF)) {
+          DO_((::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadPackedPrimitive<
+                   ::PROTOBUF_NAMESPACE_ID::uint64, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_UINT64>(
+                 input, this->mutable_new_peer_ids())));
+        } else if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (24 & 0xFF)) {
+          DO_((::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadRepeatedPrimitiveNoInline<
+                   ::PROTOBUF_NAMESPACE_ID::uint64, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_UINT64>(
+                 1, 26u, input, this->mutable_new_peer_ids())));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.SplitRequest)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.SplitRequest)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void SplitRequest::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.SplitRequest)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // bytes split_key = 1;
+  if (this->split_key().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesMaybeAliased(
+      1, this->split_key(), output);
+  }
+
+  // uint64 new_region_id = 2;
+  if (this->new_region_id() != 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64(2, this->new_region_id(), output);
+  }
+
+  // repeated uint64 new_peer_ids = 3;
+  if (this->new_peer_ids_size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteTag(3, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WIRETYPE_LENGTH_DELIMITED, output);
+    output->WriteVarint32(_new_peer_ids_cached_byte_size_.load(
+        std::memory_order_relaxed));
+  }
+  for (int i = 0, n = this->new_peer_ids_size(); i < n; i++) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64NoTag(
+      this->new_peer_ids(i), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.SplitRequest)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* SplitRequest::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.SplitRequest)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // bytes split_key = 1;
   if (this->split_key().size() > 0) {
-    target = stream->WriteBytesMaybeAliased(
-        1, this->_internal_split_key(), target);
+    target =
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesToArray(
+        1, this->split_key(), target);
   }
 
   // uint64 new_region_id = 2;
   if (this->new_region_id() != 0) {
-    target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(2, this->_internal_new_region_id(), target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(2, this->new_region_id(), target);
   }
 
   // repeated uint64 new_peer_ids = 3;
-  {
-    int byte_size = _new_peer_ids_cached_byte_size_.load(std::memory_order_relaxed);
-    if (byte_size > 0) {
-      target = stream->WriteUInt64Packed(
-          3, _internal_new_peer_ids(), byte_size, target);
-    }
+  if (this->new_peer_ids_size() > 0) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteTagToArray(
+      3,
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WIRETYPE_LENGTH_DELIMITED,
+      target);
+    target = ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream::WriteVarint32ToArray(
+        _new_peer_ids_cached_byte_size_.load(std::memory_order_relaxed),
+         target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      WriteUInt64NoTagToArray(this->new_peer_ids_, target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.SplitRequest)
   return target;
@@ -3862,6 +4964,11 @@ size_t SplitRequest::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.SplitRequest)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -3885,20 +4992,16 @@ size_t SplitRequest::ByteSizeLong() const {
   if (this->split_key().size() > 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
-        this->_internal_split_key());
+        this->split_key());
   }
 
   // uint64 new_region_id = 2;
   if (this->new_region_id() != 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt64Size(
-        this->_internal_new_region_id());
+        this->new_region_id());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -3922,16 +5025,17 @@ void SplitRequest::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void SplitRequest::MergeFrom(const SplitRequest& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.SplitRequest)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   new_peer_ids_.MergeFrom(from.new_peer_ids_);
   if (from.split_key().size() > 0) {
-    _internal_set_split_key(from._internal_split_key());
+
+    split_key_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.split_key_);
   }
   if (from.new_region_id() != 0) {
-    _internal_set_new_region_id(from._internal_new_region_id());
+    set_new_region_id(from.new_region_id());
   }
 }
 
@@ -3953,11 +5057,16 @@ bool SplitRequest::IsInitialized() const {
   return true;
 }
 
+void SplitRequest::Swap(SplitRequest* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void SplitRequest::InternalSwap(SplitRequest* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
   new_peer_ids_.InternalSwap(&other->new_peer_ids_);
-  split_key_.Swap(&other->split_key_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  split_key_.Swap(&other->split_key_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(new_region_id_, other->new_region_id_);
 }
 
@@ -3968,24 +5077,29 @@ void SplitRequest::InternalSwap(SplitRequest* other) {
 
 // ===================================================================
 
-class SplitResponse::_Internal {
+void SplitResponse::InitAsDefaultInstance() {
+}
+class SplitResponse::HasBitSetters {
  public:
 };
 
 void SplitResponse::clear_regions() {
   regions_.Clear();
 }
-SplitResponse::SplitResponse(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena),
-  regions_(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int SplitResponse::kRegionsFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+SplitResponse::SplitResponse()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.SplitResponse)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.SplitResponse)
 }
 SplitResponse::SplitResponse(const SplitResponse& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr),
       regions_(from.regions_) {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   // @@protoc_insertion_point(copy_constructor:raft_cmdpb.SplitResponse)
 }
 
@@ -3996,19 +5110,11 @@ void SplitResponse::SharedCtor() {
 SplitResponse::~SplitResponse() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.SplitResponse)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void SplitResponse::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
 }
 
-void SplitResponse::ArenaDtor(void* object) {
-  SplitResponse* _this = reinterpret_cast< SplitResponse* >(object);
-  (void)_this;
-}
-void SplitResponse::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SplitResponse::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -4025,9 +5131,10 @@ void SplitResponse::Clear() {
   (void) cached_has_bits;
 
   regions_.Clear();
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* SplitResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -4041,10 +5148,10 @@ const char* SplitResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
           ptr -= 1;
           do {
             ptr += 1;
-            ptr = ctx->ParseMessage(_internal_add_regions(), ptr);
+            ptr = ctx->ParseMessage(add_regions(), ptr);
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
-          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<10>(ptr));
+          } while (::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<::PROTOBUF_NAMESPACE_ID::uint8>(ptr) == 10);
         } else goto handle_unusual;
         continue;
       default: {
@@ -4053,9 +5160,7 @@ const char* SplitResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -4068,24 +5173,88 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool SplitResponse::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.SplitResponse)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // repeated .metapb.Region regions = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (10 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+                input, add_regions()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SplitResponse::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.SplitResponse)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.SplitResponse)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void SplitResponse::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.SplitResponse)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .metapb.Region regions = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->regions_size()); i < n; i++) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1,
+      this->regions(static_cast<int>(i)),
+      output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.SplitResponse)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* SplitResponse::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.SplitResponse)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // repeated .metapb.Region regions = 1;
   for (unsigned int i = 0,
-      n = static_cast<unsigned int>(this->_internal_regions_size()); i < n; i++) {
-    target = stream->EnsureSpace(target);
+      n = static_cast<unsigned int>(this->regions_size()); i < n; i++) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(1, this->_internal_regions(i), target, stream);
+      InternalWriteMessageToArray(
+        1, this->regions(static_cast<int>(i)), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.SplitResponse)
   return target;
@@ -4095,21 +5264,26 @@ size_t SplitResponse::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.SplitResponse)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // repeated .metapb.Region regions = 1;
-  total_size += 1UL * this->_internal_regions_size();
-  for (const auto& msg : this->regions_) {
-    total_size +=
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  {
+    unsigned int count = static_cast<unsigned int>(this->regions_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+          this->regions(static_cast<int>(i)));
+    }
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -4133,7 +5307,7 @@ void SplitResponse::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void SplitResponse::MergeFrom(const SplitResponse& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.SplitResponse)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -4158,10 +5332,14 @@ bool SplitResponse::IsInitialized() const {
   return true;
 }
 
+void SplitResponse::Swap(SplitResponse* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void SplitResponse::InternalSwap(SplitResponse* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  regions_.InternalSwap(&other->regions_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  CastToBase(&regions_)->InternalSwap(CastToBase(&other->regions_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata SplitResponse::GetMetadata() const {
@@ -4171,19 +5349,26 @@ void SplitResponse::InternalSwap(SplitResponse* other) {
 
 // ===================================================================
 
-class CompactLogRequest::_Internal {
+void CompactLogRequest::InitAsDefaultInstance() {
+}
+class CompactLogRequest::HasBitSetters {
  public:
 };
 
-CompactLogRequest::CompactLogRequest(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int CompactLogRequest::kCompactIndexFieldNumber;
+const int CompactLogRequest::kCompactTermFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+CompactLogRequest::CompactLogRequest()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.CompactLogRequest)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.CompactLogRequest)
 }
 CompactLogRequest::CompactLogRequest(const CompactLogRequest& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::memcpy(&compact_index_, &from.compact_index_,
     static_cast<size_t>(reinterpret_cast<char*>(&compact_term_) -
     reinterpret_cast<char*>(&compact_index_)) + sizeof(compact_term_));
@@ -4191,28 +5376,19 @@ CompactLogRequest::CompactLogRequest(const CompactLogRequest& from)
 }
 
 void CompactLogRequest::SharedCtor() {
-  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
-      reinterpret_cast<char*>(&compact_index_) - reinterpret_cast<char*>(this)),
-      0, static_cast<size_t>(reinterpret_cast<char*>(&compact_term_) -
+  ::memset(&compact_index_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&compact_term_) -
       reinterpret_cast<char*>(&compact_index_)) + sizeof(compact_term_));
 }
 
 CompactLogRequest::~CompactLogRequest() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.CompactLogRequest)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void CompactLogRequest::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
 }
 
-void CompactLogRequest::ArenaDtor(void* object) {
-  CompactLogRequest* _this = reinterpret_cast< CompactLogRequest* >(object);
-  (void)_this;
-}
-void CompactLogRequest::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void CompactLogRequest::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -4231,9 +5407,10 @@ void CompactLogRequest::Clear() {
   ::memset(&compact_index_, 0, static_cast<size_t>(
       reinterpret_cast<char*>(&compact_term_) -
       reinterpret_cast<char*>(&compact_index_)) + sizeof(compact_term_));
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* CompactLogRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -4244,14 +5421,14 @@ const char* CompactLogRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESP
       // uint64 compact_index = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          compact_index_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          compact_index_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // uint64 compact_term = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          compact_term_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          compact_term_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -4261,9 +5438,7 @@ const char* CompactLogRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESP
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -4276,28 +5451,106 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool CompactLogRequest::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.CompactLogRequest)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // uint64 compact_index = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (8 & 0xFF)) {
 
-::PROTOBUF_NAMESPACE_ID::uint8* CompactLogRequest::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+          DO_((::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadPrimitive<
+                   ::PROTOBUF_NAMESPACE_ID::uint64, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_UINT64>(
+                 input, &compact_index_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // uint64 compact_term = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (16 & 0xFF)) {
+
+          DO_((::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadPrimitive<
+                   ::PROTOBUF_NAMESPACE_ID::uint64, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_UINT64>(
+                 input, &compact_term_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.CompactLogRequest)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.CompactLogRequest)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void CompactLogRequest::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.CompactLogRequest)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // uint64 compact_index = 1;
+  if (this->compact_index() != 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64(1, this->compact_index(), output);
+  }
+
+  // uint64 compact_term = 2;
+  if (this->compact_term() != 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64(2, this->compact_term(), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.CompactLogRequest)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* CompactLogRequest::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.CompactLogRequest)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // uint64 compact_index = 1;
   if (this->compact_index() != 0) {
-    target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(1, this->_internal_compact_index(), target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(1, this->compact_index(), target);
   }
 
   // uint64 compact_term = 2;
   if (this->compact_term() != 0) {
-    target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(2, this->_internal_compact_term(), target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(2, this->compact_term(), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.CompactLogRequest)
   return target;
@@ -4307,6 +5560,11 @@ size_t CompactLogRequest::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.CompactLogRequest)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -4315,20 +5573,16 @@ size_t CompactLogRequest::ByteSizeLong() const {
   if (this->compact_index() != 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt64Size(
-        this->_internal_compact_index());
+        this->compact_index());
   }
 
   // uint64 compact_term = 2;
   if (this->compact_term() != 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt64Size(
-        this->_internal_compact_term());
+        this->compact_term());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -4352,15 +5606,15 @@ void CompactLogRequest::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) 
 void CompactLogRequest::MergeFrom(const CompactLogRequest& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.CompactLogRequest)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.compact_index() != 0) {
-    _internal_set_compact_index(from._internal_compact_index());
+    set_compact_index(from.compact_index());
   }
   if (from.compact_term() != 0) {
-    _internal_set_compact_term(from._internal_compact_term());
+    set_compact_term(from.compact_term());
   }
 }
 
@@ -4382,15 +5636,15 @@ bool CompactLogRequest::IsInitialized() const {
   return true;
 }
 
+void CompactLogRequest::Swap(CompactLogRequest* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void CompactLogRequest::InternalSwap(CompactLogRequest* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(CompactLogRequest, compact_term_)
-      + sizeof(CompactLogRequest::compact_term_)
-      - PROTOBUF_FIELD_OFFSET(CompactLogRequest, compact_index_)>(
-          reinterpret_cast<char*>(&compact_index_),
-          reinterpret_cast<char*>(&other->compact_index_));
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(compact_index_, other->compact_index_);
+  swap(compact_term_, other->compact_term_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata CompactLogRequest::GetMetadata() const {
@@ -4400,19 +5654,24 @@ void CompactLogRequest::InternalSwap(CompactLogRequest* other) {
 
 // ===================================================================
 
-class CompactLogResponse::_Internal {
+void CompactLogResponse::InitAsDefaultInstance() {
+}
+class CompactLogResponse::HasBitSetters {
  public:
 };
 
-CompactLogResponse::CompactLogResponse(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+CompactLogResponse::CompactLogResponse()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.CompactLogResponse)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.CompactLogResponse)
 }
 CompactLogResponse::CompactLogResponse(const CompactLogResponse& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   // @@protoc_insertion_point(copy_constructor:raft_cmdpb.CompactLogResponse)
 }
 
@@ -4422,19 +5681,11 @@ void CompactLogResponse::SharedCtor() {
 CompactLogResponse::~CompactLogResponse() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.CompactLogResponse)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void CompactLogResponse::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
 }
 
-void CompactLogResponse::ArenaDtor(void* object) {
-  CompactLogResponse* _this = reinterpret_cast< CompactLogResponse* >(object);
-  (void)_this;
-}
-void CompactLogResponse::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void CompactLogResponse::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -4450,24 +5701,27 @@ void CompactLogResponse::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* CompactLogResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
     ::PROTOBUF_NAMESPACE_ID::uint32 tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
+    switch (tag >> 3) {
+      default: {
         if ((tag & 7) == 4 || tag == 0) {
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
+      }
+    }  // switch
   }  // while
 success:
   return ptr;
@@ -4476,16 +5730,55 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool CompactLogResponse::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.CompactLogResponse)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+  handle_unusual:
+    if (tag == 0) {
+      goto success;
+    }
+    DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+          input, tag, _internal_metadata_.mutable_unknown_fields()));
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.CompactLogResponse)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.CompactLogResponse)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 
-::PROTOBUF_NAMESPACE_ID::uint8* CompactLogResponse::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+void CompactLogResponse::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.CompactLogResponse)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.CompactLogResponse)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* CompactLogResponse::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.CompactLogResponse)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.CompactLogResponse)
   return target;
@@ -4495,14 +5788,15 @@ size_t CompactLogResponse::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.CompactLogResponse)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -4526,7 +5820,7 @@ void CompactLogResponse::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from)
 void CompactLogResponse::MergeFrom(const CompactLogResponse& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.CompactLogResponse)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -4550,9 +5844,13 @@ bool CompactLogResponse::IsInitialized() const {
   return true;
 }
 
+void CompactLogResponse::Swap(CompactLogResponse* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void CompactLogResponse::InternalSwap(CompactLogResponse* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata CompactLogResponse::GetMetadata() const {
@@ -4562,31 +5860,39 @@ void CompactLogResponse::InternalSwap(CompactLogResponse* other) {
 
 // ===================================================================
 
-class TransferLeaderRequest::_Internal {
+void TransferLeaderRequest::InitAsDefaultInstance() {
+  ::raft_cmdpb::_TransferLeaderRequest_default_instance_._instance.get_mutable()->peer_ = const_cast< ::metapb::Peer*>(
+      ::metapb::Peer::internal_default_instance());
+}
+class TransferLeaderRequest::HasBitSetters {
  public:
   static const ::metapb::Peer& peer(const TransferLeaderRequest* msg);
 };
 
 const ::metapb::Peer&
-TransferLeaderRequest::_Internal::peer(const TransferLeaderRequest* msg) {
+TransferLeaderRequest::HasBitSetters::peer(const TransferLeaderRequest* msg) {
   return *msg->peer_;
 }
 void TransferLeaderRequest::clear_peer() {
-  if (GetArena() == nullptr && peer_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && peer_ != nullptr) {
     delete peer_;
   }
   peer_ = nullptr;
 }
-TransferLeaderRequest::TransferLeaderRequest(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int TransferLeaderRequest::kPeerFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+TransferLeaderRequest::TransferLeaderRequest()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.TransferLeaderRequest)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.TransferLeaderRequest)
 }
 TransferLeaderRequest::TransferLeaderRequest(const TransferLeaderRequest& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  if (from._internal_has_peer()) {
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_peer()) {
     peer_ = new ::metapb::Peer(*from.peer_);
   } else {
     peer_ = nullptr;
@@ -4602,20 +5908,12 @@ void TransferLeaderRequest::SharedCtor() {
 TransferLeaderRequest::~TransferLeaderRequest() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.TransferLeaderRequest)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void TransferLeaderRequest::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   if (this != internal_default_instance()) delete peer_;
 }
 
-void TransferLeaderRequest::ArenaDtor(void* object) {
-  TransferLeaderRequest* _this = reinterpret_cast< TransferLeaderRequest* >(object);
-  (void)_this;
-}
-void TransferLeaderRequest::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void TransferLeaderRequest::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -4631,13 +5929,14 @@ void TransferLeaderRequest::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (GetArena() == nullptr && peer_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && peer_ != nullptr) {
     delete peer_;
   }
   peer_ = nullptr;
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* TransferLeaderRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -4648,7 +5947,7 @@ const char* TransferLeaderRequest::_InternalParse(const char* ptr, ::PROTOBUF_NA
       // .metapb.Peer peer = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
-          ptr = ctx->ParseMessage(_internal_mutable_peer(), ptr);
+          ptr = ctx->ParseMessage(mutable_peer(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -4658,9 +5957,7 @@ const char* TransferLeaderRequest::_InternalParse(const char* ptr, ::PROTOBUF_NA
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -4673,24 +5970,84 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool TransferLeaderRequest::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.TransferLeaderRequest)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .metapb.Peer peer = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (10 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_peer()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* TransferLeaderRequest::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.TransferLeaderRequest)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.TransferLeaderRequest)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void TransferLeaderRequest::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.TransferLeaderRequest)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .metapb.Peer peer = 1;
+  if (this->has_peer()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, HasBitSetters::peer(this), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.TransferLeaderRequest)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* TransferLeaderRequest::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.TransferLeaderRequest)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // .metapb.Peer peer = 1;
   if (this->has_peer()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        1, _Internal::peer(this), target, stream);
+      InternalWriteMessageToArray(
+        1, HasBitSetters::peer(this), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.TransferLeaderRequest)
   return target;
@@ -4700,6 +6057,11 @@ size_t TransferLeaderRequest::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.TransferLeaderRequest)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -4711,10 +6073,6 @@ size_t TransferLeaderRequest::ByteSizeLong() const {
         *peer_);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -4738,12 +6096,12 @@ void TransferLeaderRequest::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& fr
 void TransferLeaderRequest::MergeFrom(const TransferLeaderRequest& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.TransferLeaderRequest)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.has_peer()) {
-    _internal_mutable_peer()->::metapb::Peer::MergeFrom(from._internal_peer());
+    mutable_peer()->::metapb::Peer::MergeFrom(from.peer());
   }
 }
 
@@ -4765,9 +6123,13 @@ bool TransferLeaderRequest::IsInitialized() const {
   return true;
 }
 
+void TransferLeaderRequest::Swap(TransferLeaderRequest* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void TransferLeaderRequest::InternalSwap(TransferLeaderRequest* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
   swap(peer_, other->peer_);
 }
 
@@ -4778,19 +6140,24 @@ void TransferLeaderRequest::InternalSwap(TransferLeaderRequest* other) {
 
 // ===================================================================
 
-class TransferLeaderResponse::_Internal {
+void TransferLeaderResponse::InitAsDefaultInstance() {
+}
+class TransferLeaderResponse::HasBitSetters {
  public:
 };
 
-TransferLeaderResponse::TransferLeaderResponse(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+TransferLeaderResponse::TransferLeaderResponse()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.TransferLeaderResponse)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.TransferLeaderResponse)
 }
 TransferLeaderResponse::TransferLeaderResponse(const TransferLeaderResponse& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   // @@protoc_insertion_point(copy_constructor:raft_cmdpb.TransferLeaderResponse)
 }
 
@@ -4800,19 +6167,11 @@ void TransferLeaderResponse::SharedCtor() {
 TransferLeaderResponse::~TransferLeaderResponse() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.TransferLeaderResponse)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void TransferLeaderResponse::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
 }
 
-void TransferLeaderResponse::ArenaDtor(void* object) {
-  TransferLeaderResponse* _this = reinterpret_cast< TransferLeaderResponse* >(object);
-  (void)_this;
-}
-void TransferLeaderResponse::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void TransferLeaderResponse::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -4828,24 +6187,27 @@ void TransferLeaderResponse::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* TransferLeaderResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
     ::PROTOBUF_NAMESPACE_ID::uint32 tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
+    switch (tag >> 3) {
+      default: {
         if ((tag & 7) == 4 || tag == 0) {
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
+      }
+    }  // switch
   }  // while
 success:
   return ptr;
@@ -4854,16 +6216,55 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool TransferLeaderResponse::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.TransferLeaderResponse)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+  handle_unusual:
+    if (tag == 0) {
+      goto success;
+    }
+    DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+          input, tag, _internal_metadata_.mutable_unknown_fields()));
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.TransferLeaderResponse)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.TransferLeaderResponse)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 
-::PROTOBUF_NAMESPACE_ID::uint8* TransferLeaderResponse::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+void TransferLeaderResponse::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.TransferLeaderResponse)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.TransferLeaderResponse)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* TransferLeaderResponse::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.TransferLeaderResponse)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.TransferLeaderResponse)
   return target;
@@ -4873,14 +6274,15 @@ size_t TransferLeaderResponse::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.TransferLeaderResponse)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -4904,7 +6306,7 @@ void TransferLeaderResponse::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& f
 void TransferLeaderResponse::MergeFrom(const TransferLeaderResponse& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.TransferLeaderResponse)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -4928,9 +6330,13 @@ bool TransferLeaderResponse::IsInitialized() const {
   return true;
 }
 
+void TransferLeaderResponse::Swap(TransferLeaderResponse* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void TransferLeaderResponse::InternalSwap(TransferLeaderResponse* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata TransferLeaderResponse::GetMetadata() const {
@@ -4940,7 +6346,17 @@ void TransferLeaderResponse::InternalSwap(TransferLeaderResponse* other) {
 
 // ===================================================================
 
-class AdminRequest::_Internal {
+void AdminRequest::InitAsDefaultInstance() {
+  ::raft_cmdpb::_AdminRequest_default_instance_._instance.get_mutable()->change_peer_ = const_cast< ::raft_cmdpb::ChangePeerRequest*>(
+      ::raft_cmdpb::ChangePeerRequest::internal_default_instance());
+  ::raft_cmdpb::_AdminRequest_default_instance_._instance.get_mutable()->compact_log_ = const_cast< ::raft_cmdpb::CompactLogRequest*>(
+      ::raft_cmdpb::CompactLogRequest::internal_default_instance());
+  ::raft_cmdpb::_AdminRequest_default_instance_._instance.get_mutable()->transfer_leader_ = const_cast< ::raft_cmdpb::TransferLeaderRequest*>(
+      ::raft_cmdpb::TransferLeaderRequest::internal_default_instance());
+  ::raft_cmdpb::_AdminRequest_default_instance_._instance.get_mutable()->split_ = const_cast< ::raft_cmdpb::SplitRequest*>(
+      ::raft_cmdpb::SplitRequest::internal_default_instance());
+}
+class AdminRequest::HasBitSetters {
  public:
   static const ::raft_cmdpb::ChangePeerRequest& change_peer(const AdminRequest* msg);
   static const ::raft_cmdpb::CompactLogRequest& compact_log(const AdminRequest* msg);
@@ -4949,46 +6365,54 @@ class AdminRequest::_Internal {
 };
 
 const ::raft_cmdpb::ChangePeerRequest&
-AdminRequest::_Internal::change_peer(const AdminRequest* msg) {
+AdminRequest::HasBitSetters::change_peer(const AdminRequest* msg) {
   return *msg->change_peer_;
 }
 const ::raft_cmdpb::CompactLogRequest&
-AdminRequest::_Internal::compact_log(const AdminRequest* msg) {
+AdminRequest::HasBitSetters::compact_log(const AdminRequest* msg) {
   return *msg->compact_log_;
 }
 const ::raft_cmdpb::TransferLeaderRequest&
-AdminRequest::_Internal::transfer_leader(const AdminRequest* msg) {
+AdminRequest::HasBitSetters::transfer_leader(const AdminRequest* msg) {
   return *msg->transfer_leader_;
 }
 const ::raft_cmdpb::SplitRequest&
-AdminRequest::_Internal::split(const AdminRequest* msg) {
+AdminRequest::HasBitSetters::split(const AdminRequest* msg) {
   return *msg->split_;
 }
-AdminRequest::AdminRequest(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int AdminRequest::kCmdTypeFieldNumber;
+const int AdminRequest::kChangePeerFieldNumber;
+const int AdminRequest::kCompactLogFieldNumber;
+const int AdminRequest::kTransferLeaderFieldNumber;
+const int AdminRequest::kSplitFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+AdminRequest::AdminRequest()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.AdminRequest)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.AdminRequest)
 }
 AdminRequest::AdminRequest(const AdminRequest& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  if (from._internal_has_change_peer()) {
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_change_peer()) {
     change_peer_ = new ::raft_cmdpb::ChangePeerRequest(*from.change_peer_);
   } else {
     change_peer_ = nullptr;
   }
-  if (from._internal_has_compact_log()) {
+  if (from.has_compact_log()) {
     compact_log_ = new ::raft_cmdpb::CompactLogRequest(*from.compact_log_);
   } else {
     compact_log_ = nullptr;
   }
-  if (from._internal_has_transfer_leader()) {
+  if (from.has_transfer_leader()) {
     transfer_leader_ = new ::raft_cmdpb::TransferLeaderRequest(*from.transfer_leader_);
   } else {
     transfer_leader_ = nullptr;
   }
-  if (from._internal_has_split()) {
+  if (from.has_split()) {
     split_ = new ::raft_cmdpb::SplitRequest(*from.split_);
   } else {
     split_ = nullptr;
@@ -4999,32 +6423,23 @@ AdminRequest::AdminRequest(const AdminRequest& from)
 
 void AdminRequest::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_AdminRequest_raft_5fcmdpb_2eproto.base);
-  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
-      reinterpret_cast<char*>(&change_peer_) - reinterpret_cast<char*>(this)),
-      0, static_cast<size_t>(reinterpret_cast<char*>(&cmd_type_) -
+  ::memset(&change_peer_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&cmd_type_) -
       reinterpret_cast<char*>(&change_peer_)) + sizeof(cmd_type_));
 }
 
 AdminRequest::~AdminRequest() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.AdminRequest)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void AdminRequest::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   if (this != internal_default_instance()) delete change_peer_;
   if (this != internal_default_instance()) delete compact_log_;
   if (this != internal_default_instance()) delete transfer_leader_;
   if (this != internal_default_instance()) delete split_;
 }
 
-void AdminRequest::ArenaDtor(void* object) {
-  AdminRequest* _this = reinterpret_cast< AdminRequest* >(object);
-  (void)_this;
-}
-void AdminRequest::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void AdminRequest::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -5040,26 +6455,27 @@ void AdminRequest::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (GetArena() == nullptr && change_peer_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && change_peer_ != nullptr) {
     delete change_peer_;
   }
   change_peer_ = nullptr;
-  if (GetArena() == nullptr && compact_log_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && compact_log_ != nullptr) {
     delete compact_log_;
   }
   compact_log_ = nullptr;
-  if (GetArena() == nullptr && transfer_leader_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && transfer_leader_ != nullptr) {
     delete transfer_leader_;
   }
   transfer_leader_ = nullptr;
-  if (GetArena() == nullptr && split_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && split_ != nullptr) {
     delete split_;
   }
   split_ = nullptr;
   cmd_type_ = 0;
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* AdminRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -5070,36 +6486,36 @@ const char* AdminRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_I
       // .raft_cmdpb.AdminCmdType cmd_type = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
-          _internal_set_cmd_type(static_cast<::raft_cmdpb::AdminCmdType>(val));
+          set_cmd_type(static_cast<::raft_cmdpb::AdminCmdType>(val));
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.ChangePeerRequest change_peer = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
-          ptr = ctx->ParseMessage(_internal_mutable_change_peer(), ptr);
+          ptr = ctx->ParseMessage(mutable_change_peer(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.CompactLogRequest compact_log = 4;
       case 4:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
-          ptr = ctx->ParseMessage(_internal_mutable_compact_log(), ptr);
+          ptr = ctx->ParseMessage(mutable_compact_log(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.TransferLeaderRequest transfer_leader = 5;
       case 5:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
-          ptr = ctx->ParseMessage(_internal_mutable_transfer_leader(), ptr);
+          ptr = ctx->ParseMessage(mutable_transfer_leader(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.SplitRequest split = 10;
       case 10:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 82)) {
-          ptr = ctx->ParseMessage(_internal_mutable_split(), ptr);
+          ptr = ctx->ParseMessage(mutable_split(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -5109,9 +6525,7 @@ const char* AdminRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_I
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -5124,55 +6538,182 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool AdminRequest::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.AdminRequest)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .raft_cmdpb.AdminCmdType cmd_type = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (8 & 0xFF)) {
+          int value = 0;
+          DO_((::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadPrimitive<
+                   int, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_cmd_type(static_cast< ::raft_cmdpb::AdminCmdType >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* AdminRequest::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      // .raft_cmdpb.ChangePeerRequest change_peer = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (18 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_change_peer()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.CompactLogRequest compact_log = 4;
+      case 4: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (34 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_compact_log()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.TransferLeaderRequest transfer_leader = 5;
+      case 5: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (42 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_transfer_leader()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.SplitRequest split = 10;
+      case 10: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (82 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_split()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.AdminRequest)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.AdminRequest)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void AdminRequest::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.AdminRequest)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .raft_cmdpb.AdminCmdType cmd_type = 1;
+  if (this->cmd_type() != 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnum(
+      1, this->cmd_type(), output);
+  }
+
+  // .raft_cmdpb.ChangePeerRequest change_peer = 2;
+  if (this->has_change_peer()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, HasBitSetters::change_peer(this), output);
+  }
+
+  // .raft_cmdpb.CompactLogRequest compact_log = 4;
+  if (this->has_compact_log()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      4, HasBitSetters::compact_log(this), output);
+  }
+
+  // .raft_cmdpb.TransferLeaderRequest transfer_leader = 5;
+  if (this->has_transfer_leader()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      5, HasBitSetters::transfer_leader(this), output);
+  }
+
+  // .raft_cmdpb.SplitRequest split = 10;
+  if (this->has_split()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      10, HasBitSetters::split(this), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.AdminRequest)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* AdminRequest::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.AdminRequest)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // .raft_cmdpb.AdminCmdType cmd_type = 1;
   if (this->cmd_type() != 0) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      1, this->_internal_cmd_type(), target);
+      1, this->cmd_type(), target);
   }
 
   // .raft_cmdpb.ChangePeerRequest change_peer = 2;
   if (this->has_change_peer()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        2, _Internal::change_peer(this), target, stream);
+      InternalWriteMessageToArray(
+        2, HasBitSetters::change_peer(this), target);
   }
 
   // .raft_cmdpb.CompactLogRequest compact_log = 4;
   if (this->has_compact_log()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        4, _Internal::compact_log(this), target, stream);
+      InternalWriteMessageToArray(
+        4, HasBitSetters::compact_log(this), target);
   }
 
   // .raft_cmdpb.TransferLeaderRequest transfer_leader = 5;
   if (this->has_transfer_leader()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        5, _Internal::transfer_leader(this), target, stream);
+      InternalWriteMessageToArray(
+        5, HasBitSetters::transfer_leader(this), target);
   }
 
   // .raft_cmdpb.SplitRequest split = 10;
   if (this->has_split()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        10, _Internal::split(this), target, stream);
+      InternalWriteMessageToArray(
+        10, HasBitSetters::split(this), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.AdminRequest)
   return target;
@@ -5182,6 +6723,11 @@ size_t AdminRequest::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.AdminRequest)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -5217,13 +6763,9 @@ size_t AdminRequest::ByteSizeLong() const {
   // .raft_cmdpb.AdminCmdType cmd_type = 1;
   if (this->cmd_type() != 0) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_cmd_type());
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->cmd_type());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -5247,24 +6789,24 @@ void AdminRequest::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void AdminRequest::MergeFrom(const AdminRequest& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.AdminRequest)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.has_change_peer()) {
-    _internal_mutable_change_peer()->::raft_cmdpb::ChangePeerRequest::MergeFrom(from._internal_change_peer());
+    mutable_change_peer()->::raft_cmdpb::ChangePeerRequest::MergeFrom(from.change_peer());
   }
   if (from.has_compact_log()) {
-    _internal_mutable_compact_log()->::raft_cmdpb::CompactLogRequest::MergeFrom(from._internal_compact_log());
+    mutable_compact_log()->::raft_cmdpb::CompactLogRequest::MergeFrom(from.compact_log());
   }
   if (from.has_transfer_leader()) {
-    _internal_mutable_transfer_leader()->::raft_cmdpb::TransferLeaderRequest::MergeFrom(from._internal_transfer_leader());
+    mutable_transfer_leader()->::raft_cmdpb::TransferLeaderRequest::MergeFrom(from.transfer_leader());
   }
   if (from.has_split()) {
-    _internal_mutable_split()->::raft_cmdpb::SplitRequest::MergeFrom(from._internal_split());
+    mutable_split()->::raft_cmdpb::SplitRequest::MergeFrom(from.split());
   }
   if (from.cmd_type() != 0) {
-    _internal_set_cmd_type(from._internal_cmd_type());
+    set_cmd_type(from.cmd_type());
   }
 }
 
@@ -5286,15 +6828,18 @@ bool AdminRequest::IsInitialized() const {
   return true;
 }
 
+void AdminRequest::Swap(AdminRequest* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void AdminRequest::InternalSwap(AdminRequest* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(AdminRequest, cmd_type_)
-      + sizeof(AdminRequest::cmd_type_)
-      - PROTOBUF_FIELD_OFFSET(AdminRequest, change_peer_)>(
-          reinterpret_cast<char*>(&change_peer_),
-          reinterpret_cast<char*>(&other->change_peer_));
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(change_peer_, other->change_peer_);
+  swap(compact_log_, other->compact_log_);
+  swap(transfer_leader_, other->transfer_leader_);
+  swap(split_, other->split_);
+  swap(cmd_type_, other->cmd_type_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata AdminRequest::GetMetadata() const {
@@ -5304,7 +6849,17 @@ void AdminRequest::InternalSwap(AdminRequest* other) {
 
 // ===================================================================
 
-class AdminResponse::_Internal {
+void AdminResponse::InitAsDefaultInstance() {
+  ::raft_cmdpb::_AdminResponse_default_instance_._instance.get_mutable()->change_peer_ = const_cast< ::raft_cmdpb::ChangePeerResponse*>(
+      ::raft_cmdpb::ChangePeerResponse::internal_default_instance());
+  ::raft_cmdpb::_AdminResponse_default_instance_._instance.get_mutable()->compact_log_ = const_cast< ::raft_cmdpb::CompactLogResponse*>(
+      ::raft_cmdpb::CompactLogResponse::internal_default_instance());
+  ::raft_cmdpb::_AdminResponse_default_instance_._instance.get_mutable()->transfer_leader_ = const_cast< ::raft_cmdpb::TransferLeaderResponse*>(
+      ::raft_cmdpb::TransferLeaderResponse::internal_default_instance());
+  ::raft_cmdpb::_AdminResponse_default_instance_._instance.get_mutable()->split_ = const_cast< ::raft_cmdpb::SplitResponse*>(
+      ::raft_cmdpb::SplitResponse::internal_default_instance());
+}
+class AdminResponse::HasBitSetters {
  public:
   static const ::raft_cmdpb::ChangePeerResponse& change_peer(const AdminResponse* msg);
   static const ::raft_cmdpb::CompactLogResponse& compact_log(const AdminResponse* msg);
@@ -5313,46 +6868,54 @@ class AdminResponse::_Internal {
 };
 
 const ::raft_cmdpb::ChangePeerResponse&
-AdminResponse::_Internal::change_peer(const AdminResponse* msg) {
+AdminResponse::HasBitSetters::change_peer(const AdminResponse* msg) {
   return *msg->change_peer_;
 }
 const ::raft_cmdpb::CompactLogResponse&
-AdminResponse::_Internal::compact_log(const AdminResponse* msg) {
+AdminResponse::HasBitSetters::compact_log(const AdminResponse* msg) {
   return *msg->compact_log_;
 }
 const ::raft_cmdpb::TransferLeaderResponse&
-AdminResponse::_Internal::transfer_leader(const AdminResponse* msg) {
+AdminResponse::HasBitSetters::transfer_leader(const AdminResponse* msg) {
   return *msg->transfer_leader_;
 }
 const ::raft_cmdpb::SplitResponse&
-AdminResponse::_Internal::split(const AdminResponse* msg) {
+AdminResponse::HasBitSetters::split(const AdminResponse* msg) {
   return *msg->split_;
 }
-AdminResponse::AdminResponse(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int AdminResponse::kCmdTypeFieldNumber;
+const int AdminResponse::kChangePeerFieldNumber;
+const int AdminResponse::kCompactLogFieldNumber;
+const int AdminResponse::kTransferLeaderFieldNumber;
+const int AdminResponse::kSplitFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+AdminResponse::AdminResponse()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.AdminResponse)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.AdminResponse)
 }
 AdminResponse::AdminResponse(const AdminResponse& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  if (from._internal_has_change_peer()) {
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_change_peer()) {
     change_peer_ = new ::raft_cmdpb::ChangePeerResponse(*from.change_peer_);
   } else {
     change_peer_ = nullptr;
   }
-  if (from._internal_has_compact_log()) {
+  if (from.has_compact_log()) {
     compact_log_ = new ::raft_cmdpb::CompactLogResponse(*from.compact_log_);
   } else {
     compact_log_ = nullptr;
   }
-  if (from._internal_has_transfer_leader()) {
+  if (from.has_transfer_leader()) {
     transfer_leader_ = new ::raft_cmdpb::TransferLeaderResponse(*from.transfer_leader_);
   } else {
     transfer_leader_ = nullptr;
   }
-  if (from._internal_has_split()) {
+  if (from.has_split()) {
     split_ = new ::raft_cmdpb::SplitResponse(*from.split_);
   } else {
     split_ = nullptr;
@@ -5363,32 +6926,23 @@ AdminResponse::AdminResponse(const AdminResponse& from)
 
 void AdminResponse::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_AdminResponse_raft_5fcmdpb_2eproto.base);
-  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
-      reinterpret_cast<char*>(&change_peer_) - reinterpret_cast<char*>(this)),
-      0, static_cast<size_t>(reinterpret_cast<char*>(&cmd_type_) -
+  ::memset(&change_peer_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&cmd_type_) -
       reinterpret_cast<char*>(&change_peer_)) + sizeof(cmd_type_));
 }
 
 AdminResponse::~AdminResponse() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.AdminResponse)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void AdminResponse::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   if (this != internal_default_instance()) delete change_peer_;
   if (this != internal_default_instance()) delete compact_log_;
   if (this != internal_default_instance()) delete transfer_leader_;
   if (this != internal_default_instance()) delete split_;
 }
 
-void AdminResponse::ArenaDtor(void* object) {
-  AdminResponse* _this = reinterpret_cast< AdminResponse* >(object);
-  (void)_this;
-}
-void AdminResponse::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void AdminResponse::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -5404,26 +6958,27 @@ void AdminResponse::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (GetArena() == nullptr && change_peer_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && change_peer_ != nullptr) {
     delete change_peer_;
   }
   change_peer_ = nullptr;
-  if (GetArena() == nullptr && compact_log_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && compact_log_ != nullptr) {
     delete compact_log_;
   }
   compact_log_ = nullptr;
-  if (GetArena() == nullptr && transfer_leader_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && transfer_leader_ != nullptr) {
     delete transfer_leader_;
   }
   transfer_leader_ = nullptr;
-  if (GetArena() == nullptr && split_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && split_ != nullptr) {
     delete split_;
   }
   split_ = nullptr;
   cmd_type_ = 0;
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* AdminResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -5434,36 +6989,36 @@ const char* AdminResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
       // .raft_cmdpb.AdminCmdType cmd_type = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
-          _internal_set_cmd_type(static_cast<::raft_cmdpb::AdminCmdType>(val));
+          set_cmd_type(static_cast<::raft_cmdpb::AdminCmdType>(val));
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.ChangePeerResponse change_peer = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
-          ptr = ctx->ParseMessage(_internal_mutable_change_peer(), ptr);
+          ptr = ctx->ParseMessage(mutable_change_peer(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.CompactLogResponse compact_log = 4;
       case 4:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
-          ptr = ctx->ParseMessage(_internal_mutable_compact_log(), ptr);
+          ptr = ctx->ParseMessage(mutable_compact_log(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.TransferLeaderResponse transfer_leader = 5;
       case 5:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
-          ptr = ctx->ParseMessage(_internal_mutable_transfer_leader(), ptr);
+          ptr = ctx->ParseMessage(mutable_transfer_leader(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.SplitResponse split = 10;
       case 10:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 82)) {
-          ptr = ctx->ParseMessage(_internal_mutable_split(), ptr);
+          ptr = ctx->ParseMessage(mutable_split(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -5473,9 +7028,7 @@ const char* AdminResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -5488,55 +7041,182 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool AdminResponse::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.AdminResponse)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .raft_cmdpb.AdminCmdType cmd_type = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (8 & 0xFF)) {
+          int value = 0;
+          DO_((::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadPrimitive<
+                   int, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_cmd_type(static_cast< ::raft_cmdpb::AdminCmdType >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* AdminResponse::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      // .raft_cmdpb.ChangePeerResponse change_peer = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (18 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_change_peer()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.CompactLogResponse compact_log = 4;
+      case 4: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (34 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_compact_log()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.TransferLeaderResponse transfer_leader = 5;
+      case 5: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (42 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_transfer_leader()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.SplitResponse split = 10;
+      case 10: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (82 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_split()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.AdminResponse)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.AdminResponse)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void AdminResponse::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.AdminResponse)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .raft_cmdpb.AdminCmdType cmd_type = 1;
+  if (this->cmd_type() != 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnum(
+      1, this->cmd_type(), output);
+  }
+
+  // .raft_cmdpb.ChangePeerResponse change_peer = 2;
+  if (this->has_change_peer()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, HasBitSetters::change_peer(this), output);
+  }
+
+  // .raft_cmdpb.CompactLogResponse compact_log = 4;
+  if (this->has_compact_log()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      4, HasBitSetters::compact_log(this), output);
+  }
+
+  // .raft_cmdpb.TransferLeaderResponse transfer_leader = 5;
+  if (this->has_transfer_leader()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      5, HasBitSetters::transfer_leader(this), output);
+  }
+
+  // .raft_cmdpb.SplitResponse split = 10;
+  if (this->has_split()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      10, HasBitSetters::split(this), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.AdminResponse)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* AdminResponse::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.AdminResponse)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // .raft_cmdpb.AdminCmdType cmd_type = 1;
   if (this->cmd_type() != 0) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      1, this->_internal_cmd_type(), target);
+      1, this->cmd_type(), target);
   }
 
   // .raft_cmdpb.ChangePeerResponse change_peer = 2;
   if (this->has_change_peer()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        2, _Internal::change_peer(this), target, stream);
+      InternalWriteMessageToArray(
+        2, HasBitSetters::change_peer(this), target);
   }
 
   // .raft_cmdpb.CompactLogResponse compact_log = 4;
   if (this->has_compact_log()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        4, _Internal::compact_log(this), target, stream);
+      InternalWriteMessageToArray(
+        4, HasBitSetters::compact_log(this), target);
   }
 
   // .raft_cmdpb.TransferLeaderResponse transfer_leader = 5;
   if (this->has_transfer_leader()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        5, _Internal::transfer_leader(this), target, stream);
+      InternalWriteMessageToArray(
+        5, HasBitSetters::transfer_leader(this), target);
   }
 
   // .raft_cmdpb.SplitResponse split = 10;
   if (this->has_split()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        10, _Internal::split(this), target, stream);
+      InternalWriteMessageToArray(
+        10, HasBitSetters::split(this), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.AdminResponse)
   return target;
@@ -5546,6 +7226,11 @@ size_t AdminResponse::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.AdminResponse)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -5581,13 +7266,9 @@ size_t AdminResponse::ByteSizeLong() const {
   // .raft_cmdpb.AdminCmdType cmd_type = 1;
   if (this->cmd_type() != 0) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_cmd_type());
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->cmd_type());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -5611,24 +7292,24 @@ void AdminResponse::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void AdminResponse::MergeFrom(const AdminResponse& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.AdminResponse)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.has_change_peer()) {
-    _internal_mutable_change_peer()->::raft_cmdpb::ChangePeerResponse::MergeFrom(from._internal_change_peer());
+    mutable_change_peer()->::raft_cmdpb::ChangePeerResponse::MergeFrom(from.change_peer());
   }
   if (from.has_compact_log()) {
-    _internal_mutable_compact_log()->::raft_cmdpb::CompactLogResponse::MergeFrom(from._internal_compact_log());
+    mutable_compact_log()->::raft_cmdpb::CompactLogResponse::MergeFrom(from.compact_log());
   }
   if (from.has_transfer_leader()) {
-    _internal_mutable_transfer_leader()->::raft_cmdpb::TransferLeaderResponse::MergeFrom(from._internal_transfer_leader());
+    mutable_transfer_leader()->::raft_cmdpb::TransferLeaderResponse::MergeFrom(from.transfer_leader());
   }
   if (from.has_split()) {
-    _internal_mutable_split()->::raft_cmdpb::SplitResponse::MergeFrom(from._internal_split());
+    mutable_split()->::raft_cmdpb::SplitResponse::MergeFrom(from.split());
   }
   if (from.cmd_type() != 0) {
-    _internal_set_cmd_type(from._internal_cmd_type());
+    set_cmd_type(from.cmd_type());
   }
 }
 
@@ -5650,15 +7331,18 @@ bool AdminResponse::IsInitialized() const {
   return true;
 }
 
+void AdminResponse::Swap(AdminResponse* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void AdminResponse::InternalSwap(AdminResponse* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(AdminResponse, cmd_type_)
-      + sizeof(AdminResponse::cmd_type_)
-      - PROTOBUF_FIELD_OFFSET(AdminResponse, change_peer_)>(
-          reinterpret_cast<char*>(&change_peer_),
-          reinterpret_cast<char*>(&other->change_peer_));
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(change_peer_, other->change_peer_);
+  swap(compact_log_, other->compact_log_);
+  swap(transfer_leader_, other->transfer_leader_);
+  swap(split_, other->split_);
+  swap(cmd_type_, other->cmd_type_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata AdminResponse::GetMetadata() const {
@@ -5668,47 +7352,60 @@ void AdminResponse::InternalSwap(AdminResponse* other) {
 
 // ===================================================================
 
-class RaftRequestHeader::_Internal {
+void RaftRequestHeader::InitAsDefaultInstance() {
+  ::raft_cmdpb::_RaftRequestHeader_default_instance_._instance.get_mutable()->peer_ = const_cast< ::metapb::Peer*>(
+      ::metapb::Peer::internal_default_instance());
+  ::raft_cmdpb::_RaftRequestHeader_default_instance_._instance.get_mutable()->region_epoch_ = const_cast< ::metapb::RegionEpoch*>(
+      ::metapb::RegionEpoch::internal_default_instance());
+}
+class RaftRequestHeader::HasBitSetters {
  public:
   static const ::metapb::Peer& peer(const RaftRequestHeader* msg);
   static const ::metapb::RegionEpoch& region_epoch(const RaftRequestHeader* msg);
 };
 
 const ::metapb::Peer&
-RaftRequestHeader::_Internal::peer(const RaftRequestHeader* msg) {
+RaftRequestHeader::HasBitSetters::peer(const RaftRequestHeader* msg) {
   return *msg->peer_;
 }
 const ::metapb::RegionEpoch&
-RaftRequestHeader::_Internal::region_epoch(const RaftRequestHeader* msg) {
+RaftRequestHeader::HasBitSetters::region_epoch(const RaftRequestHeader* msg) {
   return *msg->region_epoch_;
 }
 void RaftRequestHeader::clear_peer() {
-  if (GetArena() == nullptr && peer_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && peer_ != nullptr) {
     delete peer_;
   }
   peer_ = nullptr;
 }
 void RaftRequestHeader::clear_region_epoch() {
-  if (GetArena() == nullptr && region_epoch_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && region_epoch_ != nullptr) {
     delete region_epoch_;
   }
   region_epoch_ = nullptr;
 }
-RaftRequestHeader::RaftRequestHeader(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int RaftRequestHeader::kRegionIdFieldNumber;
+const int RaftRequestHeader::kPeerFieldNumber;
+const int RaftRequestHeader::kRegionEpochFieldNumber;
+const int RaftRequestHeader::kTermFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+RaftRequestHeader::RaftRequestHeader()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.RaftRequestHeader)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.RaftRequestHeader)
 }
 RaftRequestHeader::RaftRequestHeader(const RaftRequestHeader& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  if (from._internal_has_peer()) {
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_peer()) {
     peer_ = new ::metapb::Peer(*from.peer_);
   } else {
     peer_ = nullptr;
   }
-  if (from._internal_has_region_epoch()) {
+  if (from.has_region_epoch()) {
     region_epoch_ = new ::metapb::RegionEpoch(*from.region_epoch_);
   } else {
     region_epoch_ = nullptr;
@@ -5721,30 +7418,21 @@ RaftRequestHeader::RaftRequestHeader(const RaftRequestHeader& from)
 
 void RaftRequestHeader::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_RaftRequestHeader_raft_5fcmdpb_2eproto.base);
-  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
-      reinterpret_cast<char*>(&peer_) - reinterpret_cast<char*>(this)),
-      0, static_cast<size_t>(reinterpret_cast<char*>(&term_) -
+  ::memset(&peer_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&term_) -
       reinterpret_cast<char*>(&peer_)) + sizeof(term_));
 }
 
 RaftRequestHeader::~RaftRequestHeader() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.RaftRequestHeader)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void RaftRequestHeader::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   if (this != internal_default_instance()) delete peer_;
   if (this != internal_default_instance()) delete region_epoch_;
 }
 
-void RaftRequestHeader::ArenaDtor(void* object) {
-  RaftRequestHeader* _this = reinterpret_cast< RaftRequestHeader* >(object);
-  (void)_this;
-}
-void RaftRequestHeader::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void RaftRequestHeader::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -5760,20 +7448,21 @@ void RaftRequestHeader::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (GetArena() == nullptr && peer_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && peer_ != nullptr) {
     delete peer_;
   }
   peer_ = nullptr;
-  if (GetArena() == nullptr && region_epoch_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && region_epoch_ != nullptr) {
     delete region_epoch_;
   }
   region_epoch_ = nullptr;
   ::memset(&region_id_, 0, static_cast<size_t>(
       reinterpret_cast<char*>(&term_) -
       reinterpret_cast<char*>(&region_id_)) + sizeof(term_));
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* RaftRequestHeader::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -5784,28 +7473,28 @@ const char* RaftRequestHeader::_InternalParse(const char* ptr, ::PROTOBUF_NAMESP
       // uint64 region_id = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          region_id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          region_id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .metapb.Peer peer = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
-          ptr = ctx->ParseMessage(_internal_mutable_peer(), ptr);
+          ptr = ctx->ParseMessage(mutable_peer(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // .metapb.RegionEpoch region_epoch = 4;
       case 4:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
-          ptr = ctx->ParseMessage(_internal_mutable_region_epoch(), ptr);
+          ptr = ctx->ParseMessage(mutable_region_epoch(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // uint64 term = 5;
       case 5:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 40)) {
-          term_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          term_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -5815,9 +7504,7 @@ const char* RaftRequestHeader::_InternalParse(const char* ptr, ::PROTOBUF_NAMESP
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -5830,44 +7517,154 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool RaftRequestHeader::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.RaftRequestHeader)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // uint64 region_id = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (8 & 0xFF)) {
 
-::PROTOBUF_NAMESPACE_ID::uint8* RaftRequestHeader::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+          DO_((::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadPrimitive<
+                   ::PROTOBUF_NAMESPACE_ID::uint64, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_UINT64>(
+                 input, &region_id_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .metapb.Peer peer = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (18 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_peer()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .metapb.RegionEpoch region_epoch = 4;
+      case 4: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (34 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_region_epoch()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // uint64 term = 5;
+      case 5: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (40 & 0xFF)) {
+
+          DO_((::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadPrimitive<
+                   ::PROTOBUF_NAMESPACE_ID::uint64, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_UINT64>(
+                 input, &term_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.RaftRequestHeader)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.RaftRequestHeader)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void RaftRequestHeader::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.RaftRequestHeader)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // uint64 region_id = 1;
+  if (this->region_id() != 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64(1, this->region_id(), output);
+  }
+
+  // .metapb.Peer peer = 2;
+  if (this->has_peer()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, HasBitSetters::peer(this), output);
+  }
+
+  // .metapb.RegionEpoch region_epoch = 4;
+  if (this->has_region_epoch()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      4, HasBitSetters::region_epoch(this), output);
+  }
+
+  // uint64 term = 5;
+  if (this->term() != 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64(5, this->term(), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.RaftRequestHeader)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* RaftRequestHeader::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.RaftRequestHeader)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // uint64 region_id = 1;
   if (this->region_id() != 0) {
-    target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(1, this->_internal_region_id(), target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(1, this->region_id(), target);
   }
 
   // .metapb.Peer peer = 2;
   if (this->has_peer()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        2, _Internal::peer(this), target, stream);
+      InternalWriteMessageToArray(
+        2, HasBitSetters::peer(this), target);
   }
 
   // .metapb.RegionEpoch region_epoch = 4;
   if (this->has_region_epoch()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        4, _Internal::region_epoch(this), target, stream);
+      InternalWriteMessageToArray(
+        4, HasBitSetters::region_epoch(this), target);
   }
 
   // uint64 term = 5;
   if (this->term() != 0) {
-    target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(5, this->_internal_term(), target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(5, this->term(), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.RaftRequestHeader)
   return target;
@@ -5877,6 +7674,11 @@ size_t RaftRequestHeader::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.RaftRequestHeader)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -5899,20 +7701,16 @@ size_t RaftRequestHeader::ByteSizeLong() const {
   if (this->region_id() != 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt64Size(
-        this->_internal_region_id());
+        this->region_id());
   }
 
   // uint64 term = 5;
   if (this->term() != 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt64Size(
-        this->_internal_term());
+        this->term());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -5936,21 +7734,21 @@ void RaftRequestHeader::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) 
 void RaftRequestHeader::MergeFrom(const RaftRequestHeader& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.RaftRequestHeader)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.has_peer()) {
-    _internal_mutable_peer()->::metapb::Peer::MergeFrom(from._internal_peer());
+    mutable_peer()->::metapb::Peer::MergeFrom(from.peer());
   }
   if (from.has_region_epoch()) {
-    _internal_mutable_region_epoch()->::metapb::RegionEpoch::MergeFrom(from._internal_region_epoch());
+    mutable_region_epoch()->::metapb::RegionEpoch::MergeFrom(from.region_epoch());
   }
   if (from.region_id() != 0) {
-    _internal_set_region_id(from._internal_region_id());
+    set_region_id(from.region_id());
   }
   if (from.term() != 0) {
-    _internal_set_term(from._internal_term());
+    set_term(from.term());
   }
 }
 
@@ -5972,15 +7770,17 @@ bool RaftRequestHeader::IsInitialized() const {
   return true;
 }
 
+void RaftRequestHeader::Swap(RaftRequestHeader* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void RaftRequestHeader::InternalSwap(RaftRequestHeader* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(RaftRequestHeader, term_)
-      + sizeof(RaftRequestHeader::term_)
-      - PROTOBUF_FIELD_OFFSET(RaftRequestHeader, peer_)>(
-          reinterpret_cast<char*>(&peer_),
-          reinterpret_cast<char*>(&other->peer_));
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(peer_, other->peer_);
+  swap(region_epoch_, other->region_epoch_);
+  swap(region_id_, other->region_id_);
+  swap(term_, other->term_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata RaftRequestHeader::GetMetadata() const {
@@ -5990,36 +7790,45 @@ void RaftRequestHeader::InternalSwap(RaftRequestHeader* other) {
 
 // ===================================================================
 
-class RaftResponseHeader::_Internal {
+void RaftResponseHeader::InitAsDefaultInstance() {
+  ::raft_cmdpb::_RaftResponseHeader_default_instance_._instance.get_mutable()->error_ = const_cast< ::errorpb::Error*>(
+      ::errorpb::Error::internal_default_instance());
+}
+class RaftResponseHeader::HasBitSetters {
  public:
   static const ::errorpb::Error& error(const RaftResponseHeader* msg);
 };
 
 const ::errorpb::Error&
-RaftResponseHeader::_Internal::error(const RaftResponseHeader* msg) {
+RaftResponseHeader::HasBitSetters::error(const RaftResponseHeader* msg) {
   return *msg->error_;
 }
 void RaftResponseHeader::clear_error() {
-  if (GetArena() == nullptr && error_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && error_ != nullptr) {
     delete error_;
   }
   error_ = nullptr;
 }
-RaftResponseHeader::RaftResponseHeader(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int RaftResponseHeader::kErrorFieldNumber;
+const int RaftResponseHeader::kUuidFieldNumber;
+const int RaftResponseHeader::kCurrentTermFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+RaftResponseHeader::RaftResponseHeader()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.RaftResponseHeader)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.RaftResponseHeader)
 }
 RaftResponseHeader::RaftResponseHeader(const RaftResponseHeader& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   uuid_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_uuid().empty()) {
-    uuid_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_uuid(), 
-      GetArena());
+  if (from.uuid().size() > 0) {
+    uuid_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.uuid_);
   }
-  if (from._internal_has_error()) {
+  if (from.has_error()) {
     error_ = new ::errorpb::Error(*from.error_);
   } else {
     error_ = nullptr;
@@ -6031,30 +7840,21 @@ RaftResponseHeader::RaftResponseHeader(const RaftResponseHeader& from)
 void RaftResponseHeader::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_RaftResponseHeader_raft_5fcmdpb_2eproto.base);
   uuid_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
-      reinterpret_cast<char*>(&error_) - reinterpret_cast<char*>(this)),
-      0, static_cast<size_t>(reinterpret_cast<char*>(&current_term_) -
+  ::memset(&error_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&current_term_) -
       reinterpret_cast<char*>(&error_)) + sizeof(current_term_));
 }
 
 RaftResponseHeader::~RaftResponseHeader() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.RaftResponseHeader)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void RaftResponseHeader::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   uuid_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete error_;
 }
 
-void RaftResponseHeader::ArenaDtor(void* object) {
-  RaftResponseHeader* _this = reinterpret_cast< RaftResponseHeader* >(object);
-  (void)_this;
-}
-void RaftResponseHeader::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void RaftResponseHeader::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -6070,15 +7870,16 @@ void RaftResponseHeader::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  uuid_.ClearToEmpty();
-  if (GetArena() == nullptr && error_ != nullptr) {
+  uuid_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == nullptr && error_ != nullptr) {
     delete error_;
   }
   error_ = nullptr;
   current_term_ = PROTOBUF_ULONGLONG(0);
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* RaftResponseHeader::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -6089,22 +7890,21 @@ const char* RaftResponseHeader::_InternalParse(const char* ptr, ::PROTOBUF_NAMES
       // .errorpb.Error error = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
-          ptr = ctx->ParseMessage(_internal_mutable_error(), ptr);
+          ptr = ctx->ParseMessage(mutable_error(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // bytes uuid = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
-          auto str = _internal_mutable_uuid();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(mutable_uuid(), ptr, ctx);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
       // uint64 current_term = 3;
       case 3:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
-          current_term_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          current_term_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -6114,9 +7914,7 @@ const char* RaftResponseHeader::_InternalParse(const char* ptr, ::PROTOBUF_NAMES
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -6129,36 +7927,131 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool RaftResponseHeader::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.RaftResponseHeader)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .errorpb.Error error = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (10 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_error()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* RaftResponseHeader::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      // bytes uuid = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (18 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadBytes(
+                input, this->mutable_uuid()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // uint64 current_term = 3;
+      case 3: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (24 & 0xFF)) {
+
+          DO_((::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadPrimitive<
+                   ::PROTOBUF_NAMESPACE_ID::uint64, ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_UINT64>(
+                 input, &current_term_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.RaftResponseHeader)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.RaftResponseHeader)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void RaftResponseHeader::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.RaftResponseHeader)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .errorpb.Error error = 1;
+  if (this->has_error()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, HasBitSetters::error(this), output);
+  }
+
+  // bytes uuid = 2;
+  if (this->uuid().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesMaybeAliased(
+      2, this->uuid(), output);
+  }
+
+  // uint64 current_term = 3;
+  if (this->current_term() != 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64(3, this->current_term(), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.RaftResponseHeader)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* RaftResponseHeader::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.RaftResponseHeader)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // .errorpb.Error error = 1;
   if (this->has_error()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        1, _Internal::error(this), target, stream);
+      InternalWriteMessageToArray(
+        1, HasBitSetters::error(this), target);
   }
 
   // bytes uuid = 2;
   if (this->uuid().size() > 0) {
-    target = stream->WriteBytesMaybeAliased(
-        2, this->_internal_uuid(), target);
+    target =
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBytesToArray(
+        2, this->uuid(), target);
   }
 
   // uint64 current_term = 3;
   if (this->current_term() != 0) {
-    target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(3, this->_internal_current_term(), target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(3, this->current_term(), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.RaftResponseHeader)
   return target;
@@ -6168,6 +8061,11 @@ size_t RaftResponseHeader::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.RaftResponseHeader)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -6176,7 +8074,7 @@ size_t RaftResponseHeader::ByteSizeLong() const {
   if (this->uuid().size() > 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
-        this->_internal_uuid());
+        this->uuid());
   }
 
   // .errorpb.Error error = 1;
@@ -6190,13 +8088,9 @@ size_t RaftResponseHeader::ByteSizeLong() const {
   if (this->current_term() != 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt64Size(
-        this->_internal_current_term());
+        this->current_term());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -6220,18 +8114,19 @@ void RaftResponseHeader::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from)
 void RaftResponseHeader::MergeFrom(const RaftResponseHeader& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.RaftResponseHeader)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.uuid().size() > 0) {
-    _internal_set_uuid(from._internal_uuid());
+
+    uuid_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.uuid_);
   }
   if (from.has_error()) {
-    _internal_mutable_error()->::errorpb::Error::MergeFrom(from._internal_error());
+    mutable_error()->::errorpb::Error::MergeFrom(from.error());
   }
   if (from.current_term() != 0) {
-    _internal_set_current_term(from._internal_current_term());
+    set_current_term(from.current_term());
   }
 }
 
@@ -6253,16 +8148,17 @@ bool RaftResponseHeader::IsInitialized() const {
   return true;
 }
 
+void RaftResponseHeader::Swap(RaftResponseHeader* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void RaftResponseHeader::InternalSwap(RaftResponseHeader* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  uuid_.Swap(&other->uuid_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(RaftResponseHeader, current_term_)
-      + sizeof(RaftResponseHeader::current_term_)
-      - PROTOBUF_FIELD_OFFSET(RaftResponseHeader, error_)>(
-          reinterpret_cast<char*>(&error_),
-          reinterpret_cast<char*>(&other->error_));
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  uuid_.Swap(&other->uuid_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  swap(error_, other->error_);
+  swap(current_term_, other->current_term_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata RaftResponseHeader::GetMetadata() const {
@@ -6272,37 +8168,48 @@ void RaftResponseHeader::InternalSwap(RaftResponseHeader* other) {
 
 // ===================================================================
 
-class RaftCmdRequest::_Internal {
+void RaftCmdRequest::InitAsDefaultInstance() {
+  ::raft_cmdpb::_RaftCmdRequest_default_instance_._instance.get_mutable()->header_ = const_cast< ::raft_cmdpb::RaftRequestHeader*>(
+      ::raft_cmdpb::RaftRequestHeader::internal_default_instance());
+  ::raft_cmdpb::_RaftCmdRequest_default_instance_._instance.get_mutable()->admin_request_ = const_cast< ::raft_cmdpb::AdminRequest*>(
+      ::raft_cmdpb::AdminRequest::internal_default_instance());
+}
+class RaftCmdRequest::HasBitSetters {
  public:
   static const ::raft_cmdpb::RaftRequestHeader& header(const RaftCmdRequest* msg);
   static const ::raft_cmdpb::AdminRequest& admin_request(const RaftCmdRequest* msg);
 };
 
 const ::raft_cmdpb::RaftRequestHeader&
-RaftCmdRequest::_Internal::header(const RaftCmdRequest* msg) {
+RaftCmdRequest::HasBitSetters::header(const RaftCmdRequest* msg) {
   return *msg->header_;
 }
 const ::raft_cmdpb::AdminRequest&
-RaftCmdRequest::_Internal::admin_request(const RaftCmdRequest* msg) {
+RaftCmdRequest::HasBitSetters::admin_request(const RaftCmdRequest* msg) {
   return *msg->admin_request_;
 }
-RaftCmdRequest::RaftCmdRequest(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena),
-  requests_(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int RaftCmdRequest::kHeaderFieldNumber;
+const int RaftCmdRequest::kRequestsFieldNumber;
+const int RaftCmdRequest::kAdminRequestFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+RaftCmdRequest::RaftCmdRequest()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.RaftCmdRequest)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.RaftCmdRequest)
 }
 RaftCmdRequest::RaftCmdRequest(const RaftCmdRequest& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr),
       requests_(from.requests_) {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  if (from._internal_has_header()) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_header()) {
     header_ = new ::raft_cmdpb::RaftRequestHeader(*from.header_);
   } else {
     header_ = nullptr;
   }
-  if (from._internal_has_admin_request()) {
+  if (from.has_admin_request()) {
     admin_request_ = new ::raft_cmdpb::AdminRequest(*from.admin_request_);
   } else {
     admin_request_ = nullptr;
@@ -6312,30 +8219,21 @@ RaftCmdRequest::RaftCmdRequest(const RaftCmdRequest& from)
 
 void RaftCmdRequest::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_RaftCmdRequest_raft_5fcmdpb_2eproto.base);
-  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
-      reinterpret_cast<char*>(&header_) - reinterpret_cast<char*>(this)),
-      0, static_cast<size_t>(reinterpret_cast<char*>(&admin_request_) -
+  ::memset(&header_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&admin_request_) -
       reinterpret_cast<char*>(&header_)) + sizeof(admin_request_));
 }
 
 RaftCmdRequest::~RaftCmdRequest() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.RaftCmdRequest)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void RaftCmdRequest::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   if (this != internal_default_instance()) delete header_;
   if (this != internal_default_instance()) delete admin_request_;
 }
 
-void RaftCmdRequest::ArenaDtor(void* object) {
-  RaftCmdRequest* _this = reinterpret_cast< RaftCmdRequest* >(object);
-  (void)_this;
-}
-void RaftCmdRequest::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void RaftCmdRequest::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -6352,17 +8250,18 @@ void RaftCmdRequest::Clear() {
   (void) cached_has_bits;
 
   requests_.Clear();
-  if (GetArena() == nullptr && header_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && header_ != nullptr) {
     delete header_;
   }
   header_ = nullptr;
-  if (GetArena() == nullptr && admin_request_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && admin_request_ != nullptr) {
     delete admin_request_;
   }
   admin_request_ = nullptr;
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* RaftCmdRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -6373,7 +8272,7 @@ const char* RaftCmdRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE
       // .raft_cmdpb.RaftRequestHeader header = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
-          ptr = ctx->ParseMessage(_internal_mutable_header(), ptr);
+          ptr = ctx->ParseMessage(mutable_header(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -6383,16 +8282,16 @@ const char* RaftCmdRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE
           ptr -= 1;
           do {
             ptr += 1;
-            ptr = ctx->ParseMessage(_internal_add_requests(), ptr);
+            ptr = ctx->ParseMessage(add_requests(), ptr);
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
-          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<18>(ptr));
+          } while (::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<::PROTOBUF_NAMESPACE_ID::uint8>(ptr) == 18);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.AdminRequest admin_request = 3;
       case 3:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
-          ptr = ctx->ParseMessage(_internal_mutable_admin_request(), ptr);
+          ptr = ctx->ParseMessage(mutable_admin_request(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -6402,9 +8301,7 @@ const char* RaftCmdRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -6417,40 +8314,136 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool RaftCmdRequest::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.RaftCmdRequest)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .raft_cmdpb.RaftRequestHeader header = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (10 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_header()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* RaftCmdRequest::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      // repeated .raft_cmdpb.Request requests = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (18 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+                input, add_requests()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.AdminRequest admin_request = 3;
+      case 3: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (26 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_admin_request()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.RaftCmdRequest)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.RaftCmdRequest)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void RaftCmdRequest::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.RaftCmdRequest)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .raft_cmdpb.RaftRequestHeader header = 1;
+  if (this->has_header()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, HasBitSetters::header(this), output);
+  }
+
+  // repeated .raft_cmdpb.Request requests = 2;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->requests_size()); i < n; i++) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2,
+      this->requests(static_cast<int>(i)),
+      output);
+  }
+
+  // .raft_cmdpb.AdminRequest admin_request = 3;
+  if (this->has_admin_request()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      3, HasBitSetters::admin_request(this), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.RaftCmdRequest)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* RaftCmdRequest::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.RaftCmdRequest)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // .raft_cmdpb.RaftRequestHeader header = 1;
   if (this->has_header()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        1, _Internal::header(this), target, stream);
+      InternalWriteMessageToArray(
+        1, HasBitSetters::header(this), target);
   }
 
   // repeated .raft_cmdpb.Request requests = 2;
   for (unsigned int i = 0,
-      n = static_cast<unsigned int>(this->_internal_requests_size()); i < n; i++) {
-    target = stream->EnsureSpace(target);
+      n = static_cast<unsigned int>(this->requests_size()); i < n; i++) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(2, this->_internal_requests(i), target, stream);
+      InternalWriteMessageToArray(
+        2, this->requests(static_cast<int>(i)), target);
   }
 
   // .raft_cmdpb.AdminRequest admin_request = 3;
   if (this->has_admin_request()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        3, _Internal::admin_request(this), target, stream);
+      InternalWriteMessageToArray(
+        3, HasBitSetters::admin_request(this), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.RaftCmdRequest)
   return target;
@@ -6460,15 +8453,24 @@ size_t RaftCmdRequest::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.RaftCmdRequest)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // repeated .raft_cmdpb.Request requests = 2;
-  total_size += 1UL * this->_internal_requests_size();
-  for (const auto& msg : this->requests_) {
-    total_size +=
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  {
+    unsigned int count = static_cast<unsigned int>(this->requests_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+          this->requests(static_cast<int>(i)));
+    }
   }
 
   // .raft_cmdpb.RaftRequestHeader header = 1;
@@ -6485,10 +8487,6 @@ size_t RaftCmdRequest::ByteSizeLong() const {
         *admin_request_);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -6512,16 +8510,16 @@ void RaftCmdRequest::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void RaftCmdRequest::MergeFrom(const RaftCmdRequest& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.RaftCmdRequest)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   requests_.MergeFrom(from.requests_);
   if (from.has_header()) {
-    _internal_mutable_header()->::raft_cmdpb::RaftRequestHeader::MergeFrom(from._internal_header());
+    mutable_header()->::raft_cmdpb::RaftRequestHeader::MergeFrom(from.header());
   }
   if (from.has_admin_request()) {
-    _internal_mutable_admin_request()->::raft_cmdpb::AdminRequest::MergeFrom(from._internal_admin_request());
+    mutable_admin_request()->::raft_cmdpb::AdminRequest::MergeFrom(from.admin_request());
   }
 }
 
@@ -6543,16 +8541,16 @@ bool RaftCmdRequest::IsInitialized() const {
   return true;
 }
 
+void RaftCmdRequest::Swap(RaftCmdRequest* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void RaftCmdRequest::InternalSwap(RaftCmdRequest* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  requests_.InternalSwap(&other->requests_);
-  ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(RaftCmdRequest, admin_request_)
-      + sizeof(RaftCmdRequest::admin_request_)
-      - PROTOBUF_FIELD_OFFSET(RaftCmdRequest, header_)>(
-          reinterpret_cast<char*>(&header_),
-          reinterpret_cast<char*>(&other->header_));
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  CastToBase(&requests_)->InternalSwap(CastToBase(&other->requests_));
+  swap(header_, other->header_);
+  swap(admin_request_, other->admin_request_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata RaftCmdRequest::GetMetadata() const {
@@ -6562,37 +8560,48 @@ void RaftCmdRequest::InternalSwap(RaftCmdRequest* other) {
 
 // ===================================================================
 
-class RaftCmdResponse::_Internal {
+void RaftCmdResponse::InitAsDefaultInstance() {
+  ::raft_cmdpb::_RaftCmdResponse_default_instance_._instance.get_mutable()->header_ = const_cast< ::raft_cmdpb::RaftResponseHeader*>(
+      ::raft_cmdpb::RaftResponseHeader::internal_default_instance());
+  ::raft_cmdpb::_RaftCmdResponse_default_instance_._instance.get_mutable()->admin_response_ = const_cast< ::raft_cmdpb::AdminResponse*>(
+      ::raft_cmdpb::AdminResponse::internal_default_instance());
+}
+class RaftCmdResponse::HasBitSetters {
  public:
   static const ::raft_cmdpb::RaftResponseHeader& header(const RaftCmdResponse* msg);
   static const ::raft_cmdpb::AdminResponse& admin_response(const RaftCmdResponse* msg);
 };
 
 const ::raft_cmdpb::RaftResponseHeader&
-RaftCmdResponse::_Internal::header(const RaftCmdResponse* msg) {
+RaftCmdResponse::HasBitSetters::header(const RaftCmdResponse* msg) {
   return *msg->header_;
 }
 const ::raft_cmdpb::AdminResponse&
-RaftCmdResponse::_Internal::admin_response(const RaftCmdResponse* msg) {
+RaftCmdResponse::HasBitSetters::admin_response(const RaftCmdResponse* msg) {
   return *msg->admin_response_;
 }
-RaftCmdResponse::RaftCmdResponse(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena),
-  responses_(arena) {
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int RaftCmdResponse::kHeaderFieldNumber;
+const int RaftCmdResponse::kResponsesFieldNumber;
+const int RaftCmdResponse::kAdminResponseFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+RaftCmdResponse::RaftCmdResponse()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
-  RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:raft_cmdpb.RaftCmdResponse)
+  // @@protoc_insertion_point(constructor:raft_cmdpb.RaftCmdResponse)
 }
 RaftCmdResponse::RaftCmdResponse(const RaftCmdResponse& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr),
       responses_(from.responses_) {
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  if (from._internal_has_header()) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_header()) {
     header_ = new ::raft_cmdpb::RaftResponseHeader(*from.header_);
   } else {
     header_ = nullptr;
   }
-  if (from._internal_has_admin_response()) {
+  if (from.has_admin_response()) {
     admin_response_ = new ::raft_cmdpb::AdminResponse(*from.admin_response_);
   } else {
     admin_response_ = nullptr;
@@ -6602,30 +8611,21 @@ RaftCmdResponse::RaftCmdResponse(const RaftCmdResponse& from)
 
 void RaftCmdResponse::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_RaftCmdResponse_raft_5fcmdpb_2eproto.base);
-  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
-      reinterpret_cast<char*>(&header_) - reinterpret_cast<char*>(this)),
-      0, static_cast<size_t>(reinterpret_cast<char*>(&admin_response_) -
+  ::memset(&header_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&admin_response_) -
       reinterpret_cast<char*>(&header_)) + sizeof(admin_response_));
 }
 
 RaftCmdResponse::~RaftCmdResponse() {
   // @@protoc_insertion_point(destructor:raft_cmdpb.RaftCmdResponse)
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 void RaftCmdResponse::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
   if (this != internal_default_instance()) delete header_;
   if (this != internal_default_instance()) delete admin_response_;
 }
 
-void RaftCmdResponse::ArenaDtor(void* object) {
-  RaftCmdResponse* _this = reinterpret_cast< RaftCmdResponse* >(object);
-  (void)_this;
-}
-void RaftCmdResponse::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void RaftCmdResponse::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
@@ -6642,17 +8642,18 @@ void RaftCmdResponse::Clear() {
   (void) cached_has_bits;
 
   responses_.Clear();
-  if (GetArena() == nullptr && header_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && header_ != nullptr) {
     delete header_;
   }
   header_ = nullptr;
-  if (GetArena() == nullptr && admin_response_ != nullptr) {
+  if (GetArenaNoVirtual() == nullptr && admin_response_ != nullptr) {
     delete admin_response_;
   }
   admin_response_ = nullptr;
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear();
 }
 
+#if GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
 const char* RaftCmdResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
@@ -6663,7 +8664,7 @@ const char* RaftCmdResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
       // .raft_cmdpb.RaftResponseHeader header = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
-          ptr = ctx->ParseMessage(_internal_mutable_header(), ptr);
+          ptr = ctx->ParseMessage(mutable_header(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -6673,16 +8674,16 @@ const char* RaftCmdResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
           ptr -= 1;
           do {
             ptr += 1;
-            ptr = ctx->ParseMessage(_internal_add_responses(), ptr);
+            ptr = ctx->ParseMessage(add_responses(), ptr);
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
-          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<18>(ptr));
+          } while (::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<::PROTOBUF_NAMESPACE_ID::uint8>(ptr) == 18);
         } else goto handle_unusual;
         continue;
       // .raft_cmdpb.AdminResponse admin_response = 3;
       case 3:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
-          ptr = ctx->ParseMessage(_internal_mutable_admin_response(), ptr);
+          ptr = ctx->ParseMessage(mutable_admin_response(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -6692,9 +8693,7 @@ const char* RaftCmdResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
           ctx->SetLastTag(tag);
           goto success;
         }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
         CHK_(ptr != nullptr);
         continue;
       }
@@ -6707,40 +8706,136 @@ failure:
   goto success;
 #undef CHK_
 }
+#else  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+bool RaftCmdResponse::MergePartialFromCodedStream(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!PROTOBUF_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+  // @@protoc_insertion_point(parse_start:raft_cmdpb.RaftCmdResponse)
+  for (;;) {
+    ::std::pair<::PROTOBUF_NAMESPACE_ID::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .raft_cmdpb.RaftResponseHeader header = 1;
+      case 1: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (10 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_header()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
 
-::PROTOBUF_NAMESPACE_ID::uint8* RaftCmdResponse::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      // repeated .raft_cmdpb.Response responses = 2;
+      case 2: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (18 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+                input, add_responses()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .raft_cmdpb.AdminResponse admin_response = 3;
+      case 3: {
+        if (static_cast< ::PROTOBUF_NAMESPACE_ID::uint8>(tag) == (26 & 0xFF)) {
+          DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::ReadMessage(
+               input, mutable_admin_response()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:raft_cmdpb.RaftCmdResponse)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:raft_cmdpb.RaftCmdResponse)
+  return false;
+#undef DO_
+}
+#endif  // GOOGLE_PROTOBUF_ENABLE_EXPERIMENTAL_PARSER
+
+void RaftCmdResponse::SerializeWithCachedSizes(
+    ::PROTOBUF_NAMESPACE_ID::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:raft_cmdpb.RaftCmdResponse)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .raft_cmdpb.RaftResponseHeader header = 1;
+  if (this->has_header()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, HasBitSetters::header(this), output);
+  }
+
+  // repeated .raft_cmdpb.Response responses = 2;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->responses_size()); i < n; i++) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2,
+      this->responses(static_cast<int>(i)),
+      output);
+  }
+
+  // .raft_cmdpb.AdminResponse admin_response = 3;
+  if (this->has_admin_response()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteMessageMaybeToArray(
+      3, HasBitSetters::admin_response(this), output);
+  }
+
+  if (_internal_metadata_.have_unknown_fields()) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFields(
+        _internal_metadata_.unknown_fields(), output);
+  }
+  // @@protoc_insertion_point(serialize_end:raft_cmdpb.RaftCmdResponse)
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* RaftCmdResponse::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:raft_cmdpb.RaftCmdResponse)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   // .raft_cmdpb.RaftResponseHeader header = 1;
   if (this->has_header()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        1, _Internal::header(this), target, stream);
+      InternalWriteMessageToArray(
+        1, HasBitSetters::header(this), target);
   }
 
   // repeated .raft_cmdpb.Response responses = 2;
   for (unsigned int i = 0,
-      n = static_cast<unsigned int>(this->_internal_responses_size()); i < n; i++) {
-    target = stream->EnsureSpace(target);
+      n = static_cast<unsigned int>(this->responses_size()); i < n; i++) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(2, this->_internal_responses(i), target, stream);
+      InternalWriteMessageToArray(
+        2, this->responses(static_cast<int>(i)), target);
   }
 
   // .raft_cmdpb.AdminResponse admin_response = 3;
   if (this->has_admin_response()) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        3, _Internal::admin_response(this), target, stream);
+      InternalWriteMessageToArray(
+        3, HasBitSetters::admin_response(this), target);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  if (_internal_metadata_.have_unknown_fields()) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:raft_cmdpb.RaftCmdResponse)
   return target;
@@ -6750,15 +8845,24 @@ size_t RaftCmdResponse::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:raft_cmdpb.RaftCmdResponse)
   size_t total_size = 0;
 
+  if (_internal_metadata_.have_unknown_fields()) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::ComputeUnknownFieldsSize(
+        _internal_metadata_.unknown_fields());
+  }
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // repeated .raft_cmdpb.Response responses = 2;
-  total_size += 1UL * this->_internal_responses_size();
-  for (const auto& msg : this->responses_) {
-    total_size +=
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  {
+    unsigned int count = static_cast<unsigned int>(this->responses_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+          this->responses(static_cast<int>(i)));
+    }
   }
 
   // .raft_cmdpb.RaftResponseHeader header = 1;
@@ -6775,10 +8879,6 @@ size_t RaftCmdResponse::ByteSizeLong() const {
         *admin_response_);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
   int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
   SetCachedSize(cached_size);
   return total_size;
@@ -6802,16 +8902,16 @@ void RaftCmdResponse::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
 void RaftCmdResponse::MergeFrom(const RaftCmdResponse& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:raft_cmdpb.RaftCmdResponse)
   GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   responses_.MergeFrom(from.responses_);
   if (from.has_header()) {
-    _internal_mutable_header()->::raft_cmdpb::RaftResponseHeader::MergeFrom(from._internal_header());
+    mutable_header()->::raft_cmdpb::RaftResponseHeader::MergeFrom(from.header());
   }
   if (from.has_admin_response()) {
-    _internal_mutable_admin_response()->::raft_cmdpb::AdminResponse::MergeFrom(from._internal_admin_response());
+    mutable_admin_response()->::raft_cmdpb::AdminResponse::MergeFrom(from.admin_response());
   }
 }
 
@@ -6833,16 +8933,16 @@ bool RaftCmdResponse::IsInitialized() const {
   return true;
 }
 
+void RaftCmdResponse::Swap(RaftCmdResponse* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
 void RaftCmdResponse::InternalSwap(RaftCmdResponse* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  responses_.InternalSwap(&other->responses_);
-  ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(RaftCmdResponse, admin_response_)
-      + sizeof(RaftCmdResponse::admin_response_)
-      - PROTOBUF_FIELD_OFFSET(RaftCmdResponse, header_)>(
-          reinterpret_cast<char*>(&header_),
-          reinterpret_cast<char*>(&other->header_));
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  CastToBase(&responses_)->InternalSwap(CastToBase(&other->responses_));
+  swap(header_, other->header_);
+  swap(admin_response_, other->admin_response_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata RaftCmdResponse::GetMetadata() const {
@@ -6854,76 +8954,76 @@ void RaftCmdResponse::InternalSwap(RaftCmdResponse* other) {
 }  // namespace raft_cmdpb
 PROTOBUF_NAMESPACE_OPEN
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::GetRequest* Arena::CreateMaybeMessage< ::raft_cmdpb::GetRequest >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::GetRequest >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::GetRequest >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::GetResponse* Arena::CreateMaybeMessage< ::raft_cmdpb::GetResponse >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::GetResponse >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::GetResponse >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::PutRequest* Arena::CreateMaybeMessage< ::raft_cmdpb::PutRequest >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::PutRequest >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::PutRequest >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::PutResponse* Arena::CreateMaybeMessage< ::raft_cmdpb::PutResponse >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::PutResponse >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::PutResponse >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::DeleteRequest* Arena::CreateMaybeMessage< ::raft_cmdpb::DeleteRequest >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::DeleteRequest >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::DeleteRequest >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::DeleteResponse* Arena::CreateMaybeMessage< ::raft_cmdpb::DeleteResponse >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::DeleteResponse >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::DeleteResponse >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::SnapRequest* Arena::CreateMaybeMessage< ::raft_cmdpb::SnapRequest >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::SnapRequest >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::SnapRequest >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::SnapResponse* Arena::CreateMaybeMessage< ::raft_cmdpb::SnapResponse >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::SnapResponse >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::SnapResponse >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::Request* Arena::CreateMaybeMessage< ::raft_cmdpb::Request >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::Request >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::Request >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::Response* Arena::CreateMaybeMessage< ::raft_cmdpb::Response >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::Response >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::Response >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::ChangePeerRequest* Arena::CreateMaybeMessage< ::raft_cmdpb::ChangePeerRequest >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::ChangePeerRequest >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::ChangePeerRequest >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::ChangePeerResponse* Arena::CreateMaybeMessage< ::raft_cmdpb::ChangePeerResponse >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::ChangePeerResponse >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::ChangePeerResponse >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::SplitRequest* Arena::CreateMaybeMessage< ::raft_cmdpb::SplitRequest >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::SplitRequest >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::SplitRequest >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::SplitResponse* Arena::CreateMaybeMessage< ::raft_cmdpb::SplitResponse >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::SplitResponse >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::SplitResponse >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::CompactLogRequest* Arena::CreateMaybeMessage< ::raft_cmdpb::CompactLogRequest >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::CompactLogRequest >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::CompactLogRequest >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::CompactLogResponse* Arena::CreateMaybeMessage< ::raft_cmdpb::CompactLogResponse >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::CompactLogResponse >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::CompactLogResponse >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::TransferLeaderRequest* Arena::CreateMaybeMessage< ::raft_cmdpb::TransferLeaderRequest >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::TransferLeaderRequest >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::TransferLeaderRequest >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::TransferLeaderResponse* Arena::CreateMaybeMessage< ::raft_cmdpb::TransferLeaderResponse >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::TransferLeaderResponse >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::TransferLeaderResponse >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::AdminRequest* Arena::CreateMaybeMessage< ::raft_cmdpb::AdminRequest >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::AdminRequest >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::AdminRequest >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::AdminResponse* Arena::CreateMaybeMessage< ::raft_cmdpb::AdminResponse >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::AdminResponse >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::AdminResponse >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::RaftRequestHeader* Arena::CreateMaybeMessage< ::raft_cmdpb::RaftRequestHeader >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::RaftRequestHeader >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::RaftRequestHeader >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::RaftResponseHeader* Arena::CreateMaybeMessage< ::raft_cmdpb::RaftResponseHeader >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::RaftResponseHeader >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::RaftResponseHeader >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::RaftCmdRequest* Arena::CreateMaybeMessage< ::raft_cmdpb::RaftCmdRequest >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::RaftCmdRequest >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::RaftCmdRequest >(arena);
 }
 template<> PROTOBUF_NOINLINE ::raft_cmdpb::RaftCmdResponse* Arena::CreateMaybeMessage< ::raft_cmdpb::RaftCmdResponse >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::raft_cmdpb::RaftCmdResponse >(arena);
+  return Arena::CreateInternal< ::raft_cmdpb::RaftCmdResponse >(arena);
 }
 PROTOBUF_NAMESPACE_CLOSE
 

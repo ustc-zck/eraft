@@ -2,9 +2,9 @@
 
 set -xe
 
-git clone --branch v1.9.2 https://github.com.cnpmjs.org/gabime/spdlog.git
-cd spdlog && mkdir build && cd build
-cmake .. && make -j && make install
+# git clone --branch v1.9.2 https://github.com.cnpmjs.org/gabime/spdlog.git
+# cd spdlog && mkdir build && cd build
+# cmake .. && make -j && make install
 
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 SRCPATH=$(cd $SCRIPTPATH/..; pwd -P)
