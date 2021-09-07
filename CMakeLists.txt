@@ -109,8 +109,13 @@ if(ParentDirectory STREQUAL "")
     find_package(ZLIB REQUIRED)
     message(STATUS "Using ZLIB: ${ZLIB_INCLUDE_DIRS}, ${ZLIB_LIBRARIES}")
 
+    find_package(TBB REQUIRED)
+    message(STATUS "Using TBB: ${TBB_INCLUDE_DIRS}, ${TBB_LIBRARIES}")
+
     find_package(gRPC CONFIG REQUIRED)
     message(STATUS "Using gRPC: ${gRPC_VERSION}")
+
+
 
     find_package(Gflags REQUIRED)
     include_directories(${GFLAGS_INCLUDE_DIRS})
@@ -124,6 +129,7 @@ if(ParentDirectory STREQUAL "")
     add_subdirectory(Protocol)
     add_subdirectory(RaftCore)
     add_subdirectory(Kv)
+    add_subdirectory(YCSB)
 
 endif(ParentDirectory STREQUAL "")
 

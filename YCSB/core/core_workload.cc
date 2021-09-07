@@ -6,12 +6,12 @@
 //  Copyright (c) 2014 Jinglei Ren <jinglei@ren.systems>.
 //
 
-#include "uniform_generator.h"
-#include "zipfian_generator.h"
-#include "scrambled_zipfian_generator.h"
-#include "skewed_latest_generator.h"
-#include "const_generator.h"
-#include "core_workload.h"
+#include "core/uniform_generator.h"
+#include "core/zipfian_generator.h"
+#include "core/scrambled_zipfian_generator.h"
+#include "core/skewed_latest_generator.h"
+#include "core/const_generator.h"
+#include "core/core_workload.h"
 
 #include <string>
 

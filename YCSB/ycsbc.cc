@@ -112,6 +112,14 @@ string ParseCommandLine(int argc, const char *argv[], utils::Properties &props) 
       }
       props.SetProperty("dbname", argv[argindex]);
       argindex++;
+    } else if(strcmp(argv[argindex], "-addr") == 0){
+      argindex++;
+      if (argindex >= argc) {
+        UsageMessage(argv[0]);
+        exit(0);
+      }
+      props.SetProperty("addr", argv[argindex]);
+      argindex++;
     } else if (strcmp(argv[argindex], "-host") == 0) {
       argindex++;
       if (argindex >= argc) {

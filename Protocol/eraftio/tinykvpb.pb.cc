@@ -5,7 +5,6 @@
 
 #include <algorithm>
 
-#include <google/protobuf/stubs/common.h>
 #include <google/protobuf/io/coded_stream.h>
 #include <google/protobuf/extension_set.h>
 #include <google/protobuf/wire_format_lite.h>
@@ -24,41 +23,43 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_tinykvpb_2eproto::offsets[1] =
 static constexpr ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema* schemas = nullptr;
 static constexpr ::PROTOBUF_NAMESPACE_ID::Message* const* file_default_instances = nullptr;
 
-const char descriptor_table_protodef_tinykvpb_2eproto[] =
+const char descriptor_table_protodef_tinykvpb_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
   "\n\016tinykvpb.proto\022\010tinykvpb\032\rkvrpcpb.prot"
   "o\032\023raft_serverpb.proto\032\020raft_cmdpb.proto"
-  "\032\021coprocessor.proto2\334\010\n\006TinyKv\0224\n\005KvGet\022"
-  "\023.kvrpcpb.GetRequest\032\024.kvrpcpb.GetRespon"
-  "se\"\000\0227\n\006KvScan\022\024.kvrpcpb.ScanRequest\032\025.k"
-  "vrpcpb.ScanResponse\"\000\022C\n\nKvPrewrite\022\030.kv"
-  "rpcpb.PrewriteRequest\032\031.kvrpcpb.Prewrite"
-  "Response\"\000\022=\n\010KvCommit\022\026.kvrpcpb.CommitR"
-  "equest\032\027.kvrpcpb.CommitResponse\"\000\022U\n\020KvC"
-  "heckTxnStatus\022\036.kvrpcpb.CheckTxnStatusRe"
-  "quest\032\037.kvrpcpb.CheckTxnStatusResponse\"\000"
-  "\022R\n\017KvBatchRollback\022\035.kvrpcpb.BatchRollb"
-  "ackRequest\032\036.kvrpcpb.BatchRollbackRespon"
-  "se\"\000\022L\n\rKvResolveLock\022\033.kvrpcpb.ResolveL"
-  "ockRequest\032\034.kvrpcpb.ResolveLockResponse"
-  "\"\000\022Y\n\016TransferLeader\022!.raft_cmdpb.Transf"
-  "erLeaderRequest\032\".raft_cmdpb.TransferLea"
-  "derResponse\"\000\022Q\n\016PeerConfChange\022\035.raft_c"
-  "mdpb.ChangePeerRequest\032\036.raft_cmdpb.Chan"
-  "gePeerResponse\"\000\022;\n\006RawGet\022\026.kvrpcpb.Raw"
-  "GetRequest\032\027.kvrpcpb.RawGetResponse\"\000\022;\n"
-  "\006RawPut\022\026.kvrpcpb.RawPutRequest\032\027.kvrpcp"
-  "b.RawPutResponse\"\000\022D\n\tRawDelete\022\031.kvrpcp"
-  "b.RawDeleteRequest\032\032.kvrpcpb.RawDeleteRe"
-  "sponse\"\000\022>\n\007RawScan\022\027.kvrpcpb.RawScanReq"
-  "uest\032\030.kvrpcpb.RawScanResponse\"\000\0229\n\004Raft"
-  "\022\032.raft_serverpb.RaftMessage\032\023.raft_serv"
-  "erpb.Done\"\000\022\?\n\010Snapshot\022\034.raft_serverpb."
-  "SnapshotChunk\032\023.raft_serverpb.Done\"\000\022<\n\013"
-  "Coprocessor\022\024.coprocessor.Request\032\025.copr"
-  "ocessor.Response\"\000b\006proto3"
+  "\032\021coprocessor.proto\032\024gogoproto/gogo.prot"
+  "o2\334\010\n\006TinyKv\0224\n\005KvGet\022\023.kvrpcpb.GetReque"
+  "st\032\024.kvrpcpb.GetResponse\"\000\0227\n\006KvScan\022\024.k"
+  "vrpcpb.ScanRequest\032\025.kvrpcpb.ScanRespons"
+  "e\"\000\022C\n\nKvPrewrite\022\030.kvrpcpb.PrewriteRequ"
+  "est\032\031.kvrpcpb.PrewriteResponse\"\000\022=\n\010KvCo"
+  "mmit\022\026.kvrpcpb.CommitRequest\032\027.kvrpcpb.C"
+  "ommitResponse\"\000\022U\n\020KvCheckTxnStatus\022\036.kv"
+  "rpcpb.CheckTxnStatusRequest\032\037.kvrpcpb.Ch"
+  "eckTxnStatusResponse\"\000\022R\n\017KvBatchRollbac"
+  "k\022\035.kvrpcpb.BatchRollbackRequest\032\036.kvrpc"
+  "pb.BatchRollbackResponse\"\000\022L\n\rKvResolveL"
+  "ock\022\033.kvrpcpb.ResolveLockRequest\032\034.kvrpc"
+  "pb.ResolveLockResponse\"\000\022Y\n\016TransferLead"
+  "er\022!.raft_cmdpb.TransferLeaderRequest\032\"."
+  "raft_cmdpb.TransferLeaderResponse\"\000\022Q\n\016P"
+  "eerConfChange\022\035.raft_cmdpb.ChangePeerReq"
+  "uest\032\036.raft_cmdpb.ChangePeerResponse\"\000\022;"
+  "\n\006RawGet\022\026.kvrpcpb.RawGetRequest\032\027.kvrpc"
+  "pb.RawGetResponse\"\000\022;\n\006RawPut\022\026.kvrpcpb."
+  "RawPutRequest\032\027.kvrpcpb.RawPutResponse\"\000"
+  "\022D\n\tRawDelete\022\031.kvrpcpb.RawDeleteRequest"
+  "\032\032.kvrpcpb.RawDeleteResponse\"\000\022>\n\007RawSca"
+  "n\022\027.kvrpcpb.RawScanRequest\032\030.kvrpcpb.Raw"
+  "ScanResponse\"\000\0229\n\004Raft\022\032.raft_serverpb.R"
+  "aftMessage\032\023.raft_serverpb.Done\"\000\022\?\n\010Sna"
+  "pshot\022\034.raft_serverpb.SnapshotChunk\032\023.ra"
+  "ft_serverpb.Done\"\000\022<\n\013Coprocessor\022\024.copr"
+  "ocessor.Request\032\025.coprocessor.Response\"\000"
+  "B\014\340\342\036\001\310\342\036\001\320\342\036\001b\006proto3"
   ;
-static const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable*const descriptor_table_tinykvpb_2eproto_deps[4] = {
+static const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable*const descriptor_table_tinykvpb_2eproto_deps[5] = {
   &::descriptor_table_coprocessor_2eproto,
+  &::descriptor_table_gogoproto_2fgogo_2eproto,
   &::descriptor_table_kvrpcpb_2eproto,
   &::descriptor_table_raft_5fcmdpb_2eproto,
   &::descriptor_table_raft_5fserverpb_2eproto,
@@ -66,16 +67,15 @@ static const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable*const descriptor
 static ::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase*const descriptor_table_tinykvpb_2eproto_sccs[1] = {
 };
 static ::PROTOBUF_NAMESPACE_ID::internal::once_flag descriptor_table_tinykvpb_2eproto_once;
-static bool descriptor_table_tinykvpb_2eproto_initialized = false;
 const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_tinykvpb_2eproto = {
-  &descriptor_table_tinykvpb_2eproto_initialized, descriptor_table_protodef_tinykvpb_2eproto, "tinykvpb.proto", 1226,
-  &descriptor_table_tinykvpb_2eproto_once, descriptor_table_tinykvpb_2eproto_sccs, descriptor_table_tinykvpb_2eproto_deps, 0, 4,
+  false, false, descriptor_table_protodef_tinykvpb_2eproto, "tinykvpb.proto", 1262,
+  &descriptor_table_tinykvpb_2eproto_once, descriptor_table_tinykvpb_2eproto_sccs, descriptor_table_tinykvpb_2eproto_deps, 0, 5,
   schemas, file_default_instances, TableStruct_tinykvpb_2eproto::offsets,
   file_level_metadata_tinykvpb_2eproto, 0, file_level_enum_descriptors_tinykvpb_2eproto, file_level_service_descriptors_tinykvpb_2eproto,
 };
 
 // Force running AddDescriptors() at dynamic initialization time.
-static bool dynamic_init_dummy_tinykvpb_2eproto = (  ::PROTOBUF_NAMESPACE_ID::internal::AddDescriptors(&descriptor_table_tinykvpb_2eproto), true);
+static bool dynamic_init_dummy_tinykvpb_2eproto = (static_cast<void>(::PROTOBUF_NAMESPACE_ID::internal::AddDescriptors(&descriptor_table_tinykvpb_2eproto)), true);
 namespace tinykvpb {
 
 // @@protoc_insertion_point(namespace_scope)
