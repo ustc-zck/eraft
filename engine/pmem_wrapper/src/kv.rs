@@ -28,63 +28,63 @@ pub struct KvStore<V: PSafe> {
 }
 
 impl<V: PSafe> Default for KvStore<V> {
-  fn default() -> Self {
-      let mut me = MaybeUninit::<BucketArray>::uninit();
-      unsafe {
-          let mut vec = Vec::<PRefCell<Bucket>>::with_capacity(BUCKETS_MAX);
-          for _ in 0..BUCKETS_MAX {
-              vec.push(PRefCell::new(Bucket::new()));
-          }
-          std::ptr::copy_nonoverlapping(vec.as_ptr(), &mut (*me.as_mut_ptr())[0], BUCKETS_MAX);
-          Self {
-              buckets: me.assume_init(),
-              values: PRefCell::new(ValueVector::new()),
-          }
-      }
-  }
+    fn default() -> Self {
+        let mut me = MaybeUninit::<BucketArray>::uninit();
+        unsafe {
+            let mut vec = Vec::<PRefCell<Bucket>>::with_capacity(BUCKETS_MAX);
+            for _ in 0..BUCKETS_MAX {
+                vec.push(PRefCell::new(Bucket::new()));
+            }
+            std::ptr::copy_nonoverlapping(vec.as_ptr(), &mut (*me.as_mut_ptr())[0], BUCKETS_MAX);
+            Self {
+                buckets: me.assume_init(),
+                values: PRefCell::new(ValueVector::new()),
+            }
+        }
+    }
 }
 
 impl<V: PSafe + Copy> KvStore<V>
 where
-  V: TxInSafe + RefUnwindSafe,
+    V: TxInSafe + RefUnwindSafe,
 {
-  pub fn get(&self, key: &str) -> Option<V> {
-      let mut hasher = DefaultHasher::new();
-      key.hash(&mut hasher);
-      let index = (hasher.finish() as usize) % BUCKETS_MAX;
+    pub fn get(&self, key: &str) -> Option<V> {
+        let mut hasher = DefaultHasher::new();
+        key.hash(&mut hasher);
+        let index = (hasher.finish() as usize) % BUCKETS_MAX;
 
-      for e in &*self.buckets[index].borrow() {
-          if e.0 == key {
-              let values = self.values.borrow();
-              return Some(values[e.1].get());
-          }
-      }
-      None
-  }
+        for e in &*self.buckets[index].borrow() {
+            if e.0 == key {
+                let values = self.values.borrow();
+                return Some(values[e.1].get());
+            }
+        }
+        None
+    }
 
-  pub fn put(&self, key: &str, val: V) {
-      let mut hasher = DefaultHasher::new();
-      key.hash(&mut hasher);
-      let index = (hasher.finish() as usize) % BUCKETS_MAX;
+    pub fn put(&self, key: &str, val: V) {
+        let mut hasher = DefaultHasher::new();
+        key.hash(&mut hasher);
+        let index = (hasher.finish() as usize) % BUCKETS_MAX;
 
-      for e in &*self.buckets[index].borrow() {
-          if e.0 == key {
-              P::transaction(|j| {
-                  let values = self.values.borrow();
-                  values[e.1].set(val, j);
-              })
-              .unwrap();
-              return;
-          }
-      }
+        for e in &*self.buckets[index].borrow() {
+            if e.0 == key {
+                P::transaction(|j| {
+                    let values = self.values.borrow();
+                    values[e.1].set(val, j);
+                })
+                .unwrap();
+                return;
+            }
+        }
 
-      P::transaction(|j| {
-          let key = PString::from_str(key, j);
-          let mut values = self.values.borrow_mut(j);
-          values.push(PCell::new(val), j);
-          let mut bucket = self.buckets[index].borrow_mut(j);
-          bucket.push((key, values.len() - 1), j);
-      })
-      .unwrap();
-  }
+        P::transaction(|j| {
+            let key = PString::from_str(key, j);
+            let mut values = self.values.borrow_mut(j);
+            values.push(PCell::new(val), j);
+            let mut bucket = self.buckets[index].borrow_mut(j);
+            bucket.push((key, values.len() - 1), j);
+        })
+        .unwrap();
+    }
 }
