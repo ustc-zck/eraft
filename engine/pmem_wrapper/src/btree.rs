@@ -1,32 +1,35 @@
 //! Implementation of persistent binary search tree
 
-use corundum::open_flags::*;
 use corundum::*;
-use std::env;
 use std::fmt::{Display, Error, Formatter};
 
 type P = default::Allocator;
-//type P = Heap;
 type Pbox<T> = corundum::Pbox<T, P>;
 type Ptr = Option<Pbox<BTreeNode>>;
 
+const KV_MAX_SIZE: usize = 1024 * 10; // 10KB
+
 struct FixStr {
-    chars: [u8; 32],
+    chars: [u8; KV_MAX_SIZE],
 }
 
 impl FixStr {
-  pub fn ToString(&self) -> String {
-    let s = String::from_utf8(self.chars.to_vec()).unwrap();
-    s
-  }
+    pub fn to_string(&self) -> String {
+        let s = String::from_utf8(self.chars.to_vec()).unwrap();
+        s.to_string()
+    }
 }
 
 impl From<String> for FixStr {
     fn from(value: String) -> Self {
         let value = value.as_bytes();
-        let mut chars = [0u8; 32];
+        let mut chars = [0u8; KV_MAX_SIZE];
         unsafe {
-            std::ptr::copy_nonoverlapping(&value[0], &mut chars[0] as *mut u8, value.len().min(32));
+            std::ptr::copy_nonoverlapping(
+                &value[0],
+                &mut chars[0] as *mut u8,
+                value.len().min(KV_MAX_SIZE),
+            );
         }
         FixStr { chars }
     }
@@ -70,7 +73,11 @@ impl BTree {
     pub fn insert(&self, key: &str, value: &str) {
         let mut dst = &self.root;
         while let Some(node) = dst {
-            dst = &node.slots[if key.as_bytes() > node.key.ToString().as_bytes() { 1 } else { 0 }];
+            dst = &node.slots[if String::from(key).gt(&node.key.to_string()) {
+                1
+            } else {
+                0
+            }];
         }
         let _ = Pbox::initialize(dst, BTreeNode::new(key, value));
     }
@@ -78,11 +85,21 @@ impl BTree {
     pub fn find(&self, key: &str) -> Option<String> {
         let mut curr = &self.root;
         while let Some(node) = curr {
-            // if node.key->eq(key) {
-            //     return Some(node.value.to_string());
-            // } else {
-            //     curr = &node.slots[if key > node.key { 1 } else { 0 }];
-            // }
+            let node_key = node.key.to_string().trim_matches(char::from(0)).to_string();
+            if node_key.eq(&key) {
+                return Some(
+                    node.value
+                        .to_string()
+                        .trim_matches(char::from(0))
+                        .to_string(),
+                );
+            } else {
+                curr = &node.slots[if String::from(key).gt(&node_key) {
+                    1
+                } else {
+                    0
+                }];
+            }
         }
         None
     }

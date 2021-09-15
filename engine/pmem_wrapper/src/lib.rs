@@ -2,8 +2,8 @@
 
 extern crate test;
 
-pub mod kv;
 pub mod btree;
+pub mod kv;
 
 #[cfg(test)]
 mod tests {
@@ -25,7 +25,13 @@ mod tests {
     #[bench]
     fn bench_insert_btree(b: &mut Bencher) {
         let root = Allocator::open::<crate::btree::BTree>("testfile1", O_CFNE | O_1GB).unwrap();
-        root.insert(String::from("testkey").as_str(), String::from("testvalue").as_str());
+        b.iter(move || {
+            for i in 0..10 {
+                let test_case = format!("{}", i);
+                root.insert(test_case.as_str(), test_case.as_str());
+                let res = root.find(test_case.as_str());
+                assert_eq!(test_case, res.unwrap());
+            }
+        });
     }
-
 }

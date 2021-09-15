@@ -7,10 +7,13 @@
 
 use corundum::default::*;
 use corundum::open_flags::*;
+use pmem_wrapper::*;
 
 type P = Allocator;
 
 pub fn main() {
+    let root = P::open::<btree::BTree>("testfile1", O_CFNE | O_1GB).unwrap();
+
     use std::env;
     use std::vec::Vec as StdVec;
 
@@ -24,30 +27,29 @@ pub fn main() {
         return;
     }
 
-    let root = P::open::<pmem_wrapper::kv::KvStore<i32>>(&args[1], O_CFNE | O_1GB).unwrap();
-
     if args[2] == String::from("get") && args.len() == 4 {
-        println!("{:?}", root.get(&*args[3]))
+        let res = root.find(args[3].as_str());
+        match res {
+            Some(res) => {
+                println!("{}", res);
+            }
+            None => {
+                println!("Not Found Value")
+            }
+        }
     } else if args[2] == String::from("put") && args.len() == 5 {
-        root.put(&*args[3], args[4].parse().unwrap())
+        root.insert(args[3].as_str(), args[4].as_str());
     }
     if args[2] == String::from("burst")
         && (args[3] == String::from("put") || args[3] == String::from("putget"))
         && args.len() == 5
     {
-        for i in 0..args[4].parse().unwrap() {
-            let key = format!("key{}", i);
-            root.put(&*key, i);
-        }
+        // Not Impl
     }
     if args[2] == String::from("burst")
         && (args[3] == String::from("get") || args[3] == String::from("putget"))
         && args.len() == 5
     {
-        for i in 0..args[4].parse().unwrap() {
-            let key = format!("key{}", i);
-            let value = root.get(&*key).unwrap();
-            println!("Got value: {}", value);
-        }
+        // Not Impl
     }
 }
